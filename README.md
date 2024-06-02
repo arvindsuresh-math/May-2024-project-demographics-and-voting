@@ -4,6 +4,7 @@ This repository will be used for the project work of data science boot camp.
 <br>
 Authors: Arvind Suresh, Fernando Liu Lopez
 <br>
+Link to presentation video: https://drive.google.com/file/d/1aSSk95RSzTjz1rd72wHHm_d8YIJ0Yqai/view?usp=sharing
 
 ## Project overview
 Voting behaviors depend, to a significant degree, on news and events leading up to the election; these are often unpredictable and introduce variance that undermines the accuracy of election forecasts. Yet, it is common knowledge that certain demographic characteristics are strong predictors of voting tendencies (e.g., rural areas tend to vote Republican). In this project, we employ machine-learning methods to measure the predictive power of demographic characteristics (race, gender, education, socio-economic status, marital status) in determining voting outcomes, focusing in particular on the US popular presidential vote. 
