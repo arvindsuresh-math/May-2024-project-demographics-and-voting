@@ -1,0 +1,668 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0009_ds240_20185_county'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2014-2018
+Geographic level: County (by State)
+Dataset:          2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+   NHGIS code:    2014_2018_ACS5b
+   NHGIS ID:      ds240
+Breakdown(s):     Geographic Component:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Sex by Age (White Alone)
+   Universe:    People who are White alone
+   Source code: B01001A
+   NHGIS code:  AJ6O
+ 
+2. Sex by Age (Black or African American Alone)
+   Universe:    Black or African American alone
+   Source code: B01001B
+   NHGIS code:  AJ6P
+ 
+3. Sex by Age (American Indian and Alaska Native Alone)
+   Universe:    People who are American Indian and Alaska Native alone
+   Source code: B01001C
+   NHGIS code:  AJ6Q
+ 
+4. Sex by Age (Asian Alone)
+   Universe:    People who are Asian alone
+   Source code: B01001D
+   NHGIS code:  AJ6R
+ 
+5. Sex by Age (Native Hawaiian and Other Pacific Islander Alone)
+   Universe:    People who are Native Hawaiian and Other Pacific Islander alone
+   Source code: B01001E
+   NHGIS code:  AJ6S
+ 
+6. Sex by Age (Some Other Race Alone)
+   Universe:    People who are Some Other Race alone
+   Source code: B01001F
+   NHGIS code:  AJ6T
+ 
+7. Sex by Age (Two or More Races)
+   Universe:    People who are Two or More Races
+   Source code: B01001G
+   NHGIS code:  AJ6U
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State Postal Abbreviation
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIHHTLI:     American Indian Trust Land/ Hawaiian Home Land Indicator
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2019-2021, 116th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PCI:         Principal City Indicator
+        PUMAA:       Public Use Microdata Area Code
+        GEOID:       Census Geographic Identifier
+        BTTRA:       Tribal Census Tract Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Sex by Age (White Alone)
+    Universe:    People who are White alone
+    Source code: B01001A
+    NHGIS code:  AJ6O
+        AJ6OE001:    Total
+        AJ6OE002:    Male
+        AJ6OE003:    Male: Under 5 years
+        AJ6OE004:    Male: 5 to 9 years
+        AJ6OE005:    Male: 10 to 14 years
+        AJ6OE006:    Male: 15 to 17 years
+        AJ6OE007:    Male: 18 and 19 years
+        AJ6OE008:    Male: 20 to 24 years
+        AJ6OE009:    Male: 25 to 29 years
+        AJ6OE010:    Male: 30 to 34 years
+        AJ6OE011:    Male: 35 to 44 years
+        AJ6OE012:    Male: 45 to 54 years
+        AJ6OE013:    Male: 55 to 64 years
+        AJ6OE014:    Male: 65 to 74 years
+        AJ6OE015:    Male: 75 to 84 years
+        AJ6OE016:    Male: 85 years and over
+        AJ6OE017:    Female
+        AJ6OE018:    Female: Under 5 years
+        AJ6OE019:    Female: 5 to 9 years
+        AJ6OE020:    Female: 10 to 14 years
+        AJ6OE021:    Female: 15 to 17 years
+        AJ6OE022:    Female: 18 and 19 years
+        AJ6OE023:    Female: 20 to 24 years
+        AJ6OE024:    Female: 25 to 29 years
+        AJ6OE025:    Female: 30 to 34 years
+        AJ6OE026:    Female: 35 to 44 years
+        AJ6OE027:    Female: 45 to 54 years
+        AJ6OE028:    Female: 55 to 64 years
+        AJ6OE029:    Female: 65 to 74 years
+        AJ6OE030:    Female: 75 to 84 years
+        AJ6OE031:    Female: 85 years and over
+ 
+    Table 2:     Sex by Age (Black or African American Alone)
+    Universe:    Black or African American alone
+    Source code: B01001B
+    NHGIS code:  AJ6P
+        AJ6PE001:    Total
+        AJ6PE002:    Male
+        AJ6PE003:    Male: Under 5 years
+        AJ6PE004:    Male: 5 to 9 years
+        AJ6PE005:    Male: 10 to 14 years
+        AJ6PE006:    Male: 15 to 17 years
+        AJ6PE007:    Male: 18 and 19 years
+        AJ6PE008:    Male: 20 to 24 years
+        AJ6PE009:    Male: 25 to 29 years
+        AJ6PE010:    Male: 30 to 34 years
+        AJ6PE011:    Male: 35 to 44 years
+        AJ6PE012:    Male: 45 to 54 years
+        AJ6PE013:    Male: 55 to 64 years
+        AJ6PE014:    Male: 65 to 74 years
+        AJ6PE015:    Male: 75 to 84 years
+        AJ6PE016:    Male: 85 years and over
+        AJ6PE017:    Female
+        AJ6PE018:    Female: Under 5 years
+        AJ6PE019:    Female: 5 to 9 years
+        AJ6PE020:    Female: 10 to 14 years
+        AJ6PE021:    Female: 15 to 17 years
+        AJ6PE022:    Female: 18 and 19 years
+        AJ6PE023:    Female: 20 to 24 years
+        AJ6PE024:    Female: 25 to 29 years
+        AJ6PE025:    Female: 30 to 34 years
+        AJ6PE026:    Female: 35 to 44 years
+        AJ6PE027:    Female: 45 to 54 years
+        AJ6PE028:    Female: 55 to 64 years
+        AJ6PE029:    Female: 65 to 74 years
+        AJ6PE030:    Female: 75 to 84 years
+        AJ6PE031:    Female: 85 years and over
+ 
+    Table 3:     Sex by Age (American Indian and Alaska Native Alone)
+    Universe:    People who are American Indian and Alaska Native alone
+    Source code: B01001C
+    NHGIS code:  AJ6Q
+        AJ6QE001:    Total
+        AJ6QE002:    Male
+        AJ6QE003:    Male: Under 5 years
+        AJ6QE004:    Male: 5 to 9 years
+        AJ6QE005:    Male: 10 to 14 years
+        AJ6QE006:    Male: 15 to 17 years
+        AJ6QE007:    Male: 18 and 19 years
+        AJ6QE008:    Male: 20 to 24 years
+        AJ6QE009:    Male: 25 to 29 years
+        AJ6QE010:    Male: 30 to 34 years
+        AJ6QE011:    Male: 35 to 44 years
+        AJ6QE012:    Male: 45 to 54 years
+        AJ6QE013:    Male: 55 to 64 years
+        AJ6QE014:    Male: 65 to 74 years
+        AJ6QE015:    Male: 75 to 84 years
+        AJ6QE016:    Male: 85 years and over
+        AJ6QE017:    Female
+        AJ6QE018:    Female: Under 5 years
+        AJ6QE019:    Female: 5 to 9 years
+        AJ6QE020:    Female: 10 to 14 years
+        AJ6QE021:    Female: 15 to 17 years
+        AJ6QE022:    Female: 18 and 19 years
+        AJ6QE023:    Female: 20 to 24 years
+        AJ6QE024:    Female: 25 to 29 years
+        AJ6QE025:    Female: 30 to 34 years
+        AJ6QE026:    Female: 35 to 44 years
+        AJ6QE027:    Female: 45 to 54 years
+        AJ6QE028:    Female: 55 to 64 years
+        AJ6QE029:    Female: 65 to 74 years
+        AJ6QE030:    Female: 75 to 84 years
+        AJ6QE031:    Female: 85 years and over
+ 
+    Table 4:     Sex by Age (Asian Alone)
+    Universe:    People who are Asian alone
+    Source code: B01001D
+    NHGIS code:  AJ6R
+        AJ6RE001:    Total
+        AJ6RE002:    Male
+        AJ6RE003:    Male: Under 5 years
+        AJ6RE004:    Male: 5 to 9 years
+        AJ6RE005:    Male: 10 to 14 years
+        AJ6RE006:    Male: 15 to 17 years
+        AJ6RE007:    Male: 18 and 19 years
+        AJ6RE008:    Male: 20 to 24 years
+        AJ6RE009:    Male: 25 to 29 years
+        AJ6RE010:    Male: 30 to 34 years
+        AJ6RE011:    Male: 35 to 44 years
+        AJ6RE012:    Male: 45 to 54 years
+        AJ6RE013:    Male: 55 to 64 years
+        AJ6RE014:    Male: 65 to 74 years
+        AJ6RE015:    Male: 75 to 84 years
+        AJ6RE016:    Male: 85 years and over
+        AJ6RE017:    Female
+        AJ6RE018:    Female: Under 5 years
+        AJ6RE019:    Female: 5 to 9 years
+        AJ6RE020:    Female: 10 to 14 years
+        AJ6RE021:    Female: 15 to 17 years
+        AJ6RE022:    Female: 18 and 19 years
+        AJ6RE023:    Female: 20 to 24 years
+        AJ6RE024:    Female: 25 to 29 years
+        AJ6RE025:    Female: 30 to 34 years
+        AJ6RE026:    Female: 35 to 44 years
+        AJ6RE027:    Female: 45 to 54 years
+        AJ6RE028:    Female: 55 to 64 years
+        AJ6RE029:    Female: 65 to 74 years
+        AJ6RE030:    Female: 75 to 84 years
+        AJ6RE031:    Female: 85 years and over
+ 
+    Table 5:     Sex by Age (Native Hawaiian and Other Pacific Islander Alone)
+    Universe:    People who are Native Hawaiian and Other Pacific Islander alone
+    Source code: B01001E
+    NHGIS code:  AJ6S
+        AJ6SE001:    Total
+        AJ6SE002:    Male
+        AJ6SE003:    Male: Under 5 years
+        AJ6SE004:    Male: 5 to 9 years
+        AJ6SE005:    Male: 10 to 14 years
+        AJ6SE006:    Male: 15 to 17 years
+        AJ6SE007:    Male: 18 and 19 years
+        AJ6SE008:    Male: 20 to 24 years
+        AJ6SE009:    Male: 25 to 29 years
+        AJ6SE010:    Male: 30 to 34 years
+        AJ6SE011:    Male: 35 to 44 years
+        AJ6SE012:    Male: 45 to 54 years
+        AJ6SE013:    Male: 55 to 64 years
+        AJ6SE014:    Male: 65 to 74 years
+        AJ6SE015:    Male: 75 to 84 years
+        AJ6SE016:    Male: 85 years and over
+        AJ6SE017:    Female
+        AJ6SE018:    Female: Under 5 years
+        AJ6SE019:    Female: 5 to 9 years
+        AJ6SE020:    Female: 10 to 14 years
+        AJ6SE021:    Female: 15 to 17 years
+        AJ6SE022:    Female: 18 and 19 years
+        AJ6SE023:    Female: 20 to 24 years
+        AJ6SE024:    Female: 25 to 29 years
+        AJ6SE025:    Female: 30 to 34 years
+        AJ6SE026:    Female: 35 to 44 years
+        AJ6SE027:    Female: 45 to 54 years
+        AJ6SE028:    Female: 55 to 64 years
+        AJ6SE029:    Female: 65 to 74 years
+        AJ6SE030:    Female: 75 to 84 years
+        AJ6SE031:    Female: 85 years and over
+ 
+    Table 6:     Sex by Age (Some Other Race Alone)
+    Universe:    People who are Some Other Race alone
+    Source code: B01001F
+    NHGIS code:  AJ6T
+        AJ6TE001:    Total
+        AJ6TE002:    Male
+        AJ6TE003:    Male: Under 5 years
+        AJ6TE004:    Male: 5 to 9 years
+        AJ6TE005:    Male: 10 to 14 years
+        AJ6TE006:    Male: 15 to 17 years
+        AJ6TE007:    Male: 18 and 19 years
+        AJ6TE008:    Male: 20 to 24 years
+        AJ6TE009:    Male: 25 to 29 years
+        AJ6TE010:    Male: 30 to 34 years
+        AJ6TE011:    Male: 35 to 44 years
+        AJ6TE012:    Male: 45 to 54 years
+        AJ6TE013:    Male: 55 to 64 years
+        AJ6TE014:    Male: 65 to 74 years
+        AJ6TE015:    Male: 75 to 84 years
+        AJ6TE016:    Male: 85 years and over
+        AJ6TE017:    Female
+        AJ6TE018:    Female: Under 5 years
+        AJ6TE019:    Female: 5 to 9 years
+        AJ6TE020:    Female: 10 to 14 years
+        AJ6TE021:    Female: 15 to 17 years
+        AJ6TE022:    Female: 18 and 19 years
+        AJ6TE023:    Female: 20 to 24 years
+        AJ6TE024:    Female: 25 to 29 years
+        AJ6TE025:    Female: 30 to 34 years
+        AJ6TE026:    Female: 35 to 44 years
+        AJ6TE027:    Female: 45 to 54 years
+        AJ6TE028:    Female: 55 to 64 years
+        AJ6TE029:    Female: 65 to 74 years
+        AJ6TE030:    Female: 75 to 84 years
+        AJ6TE031:    Female: 85 years and over
+ 
+    Table 7:     Sex by Age (Two or More Races)
+    Universe:    People who are Two or More Races
+    Source code: B01001G
+    NHGIS code:  AJ6U
+        AJ6UE001:    Total
+        AJ6UE002:    Male
+        AJ6UE003:    Male: Under 5 years
+        AJ6UE004:    Male: 5 to 9 years
+        AJ6UE005:    Male: 10 to 14 years
+        AJ6UE006:    Male: 15 to 17 years
+        AJ6UE007:    Male: 18 and 19 years
+        AJ6UE008:    Male: 20 to 24 years
+        AJ6UE009:    Male: 25 to 29 years
+        AJ6UE010:    Male: 30 to 34 years
+        AJ6UE011:    Male: 35 to 44 years
+        AJ6UE012:    Male: 45 to 54 years
+        AJ6UE013:    Male: 55 to 64 years
+        AJ6UE014:    Male: 65 to 74 years
+        AJ6UE015:    Male: 75 to 84 years
+        AJ6UE016:    Male: 85 years and over
+        AJ6UE017:    Female
+        AJ6UE018:    Female: Under 5 years
+        AJ6UE019:    Female: 5 to 9 years
+        AJ6UE020:    Female: 10 to 14 years
+        AJ6UE021:    Female: 15 to 17 years
+        AJ6UE022:    Female: 18 and 19 years
+        AJ6UE023:    Female: 20 to 24 years
+        AJ6UE024:    Female: 25 to 29 years
+        AJ6UE025:    Female: 30 to 34 years
+        AJ6UE026:    Female: 35 to 44 years
+        AJ6UE027:    Female: 45 to 54 years
+        AJ6UE028:    Female: 55 to 64 years
+        AJ6UE029:    Female: 65 to 74 years
+        AJ6UE030:    Female: 75 to 84 years
+        AJ6UE031:    Female: 85 years and over
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Sex by Age (White Alone)
+    Universe:    People who are White alone
+    Source code: B01001A
+    NHGIS code:  AJ6O
+        AJ6OM001:    Total
+        AJ6OM002:    Male
+        AJ6OM003:    Male: Under 5 years
+        AJ6OM004:    Male: 5 to 9 years
+        AJ6OM005:    Male: 10 to 14 years
+        AJ6OM006:    Male: 15 to 17 years
+        AJ6OM007:    Male: 18 and 19 years
+        AJ6OM008:    Male: 20 to 24 years
+        AJ6OM009:    Male: 25 to 29 years
+        AJ6OM010:    Male: 30 to 34 years
+        AJ6OM011:    Male: 35 to 44 years
+        AJ6OM012:    Male: 45 to 54 years
+        AJ6OM013:    Male: 55 to 64 years
+        AJ6OM014:    Male: 65 to 74 years
+        AJ6OM015:    Male: 75 to 84 years
+        AJ6OM016:    Male: 85 years and over
+        AJ6OM017:    Female
+        AJ6OM018:    Female: Under 5 years
+        AJ6OM019:    Female: 5 to 9 years
+        AJ6OM020:    Female: 10 to 14 years
+        AJ6OM021:    Female: 15 to 17 years
+        AJ6OM022:    Female: 18 and 19 years
+        AJ6OM023:    Female: 20 to 24 years
+        AJ6OM024:    Female: 25 to 29 years
+        AJ6OM025:    Female: 30 to 34 years
+        AJ6OM026:    Female: 35 to 44 years
+        AJ6OM027:    Female: 45 to 54 years
+        AJ6OM028:    Female: 55 to 64 years
+        AJ6OM029:    Female: 65 to 74 years
+        AJ6OM030:    Female: 75 to 84 years
+        AJ6OM031:    Female: 85 years and over
+ 
+    Table 2:     Sex by Age (Black or African American Alone)
+    Universe:    Black or African American alone
+    Source code: B01001B
+    NHGIS code:  AJ6P
+        AJ6PM001:    Total
+        AJ6PM002:    Male
+        AJ6PM003:    Male: Under 5 years
+        AJ6PM004:    Male: 5 to 9 years
+        AJ6PM005:    Male: 10 to 14 years
+        AJ6PM006:    Male: 15 to 17 years
+        AJ6PM007:    Male: 18 and 19 years
+        AJ6PM008:    Male: 20 to 24 years
+        AJ6PM009:    Male: 25 to 29 years
+        AJ6PM010:    Male: 30 to 34 years
+        AJ6PM011:    Male: 35 to 44 years
+        AJ6PM012:    Male: 45 to 54 years
+        AJ6PM013:    Male: 55 to 64 years
+        AJ6PM014:    Male: 65 to 74 years
+        AJ6PM015:    Male: 75 to 84 years
+        AJ6PM016:    Male: 85 years and over
+        AJ6PM017:    Female
+        AJ6PM018:    Female: Under 5 years
+        AJ6PM019:    Female: 5 to 9 years
+        AJ6PM020:    Female: 10 to 14 years
+        AJ6PM021:    Female: 15 to 17 years
+        AJ6PM022:    Female: 18 and 19 years
+        AJ6PM023:    Female: 20 to 24 years
+        AJ6PM024:    Female: 25 to 29 years
+        AJ6PM025:    Female: 30 to 34 years
+        AJ6PM026:    Female: 35 to 44 years
+        AJ6PM027:    Female: 45 to 54 years
+        AJ6PM028:    Female: 55 to 64 years
+        AJ6PM029:    Female: 65 to 74 years
+        AJ6PM030:    Female: 75 to 84 years
+        AJ6PM031:    Female: 85 years and over
+ 
+    Table 3:     Sex by Age (American Indian and Alaska Native Alone)
+    Universe:    People who are American Indian and Alaska Native alone
+    Source code: B01001C
+    NHGIS code:  AJ6Q
+        AJ6QM001:    Total
+        AJ6QM002:    Male
+        AJ6QM003:    Male: Under 5 years
+        AJ6QM004:    Male: 5 to 9 years
+        AJ6QM005:    Male: 10 to 14 years
+        AJ6QM006:    Male: 15 to 17 years
+        AJ6QM007:    Male: 18 and 19 years
+        AJ6QM008:    Male: 20 to 24 years
+        AJ6QM009:    Male: 25 to 29 years
+        AJ6QM010:    Male: 30 to 34 years
+        AJ6QM011:    Male: 35 to 44 years
+        AJ6QM012:    Male: 45 to 54 years
+        AJ6QM013:    Male: 55 to 64 years
+        AJ6QM014:    Male: 65 to 74 years
+        AJ6QM015:    Male: 75 to 84 years
+        AJ6QM016:    Male: 85 years and over
+        AJ6QM017:    Female
+        AJ6QM018:    Female: Under 5 years
+        AJ6QM019:    Female: 5 to 9 years
+        AJ6QM020:    Female: 10 to 14 years
+        AJ6QM021:    Female: 15 to 17 years
+        AJ6QM022:    Female: 18 and 19 years
+        AJ6QM023:    Female: 20 to 24 years
+        AJ6QM024:    Female: 25 to 29 years
+        AJ6QM025:    Female: 30 to 34 years
+        AJ6QM026:    Female: 35 to 44 years
+        AJ6QM027:    Female: 45 to 54 years
+        AJ6QM028:    Female: 55 to 64 years
+        AJ6QM029:    Female: 65 to 74 years
+        AJ6QM030:    Female: 75 to 84 years
+        AJ6QM031:    Female: 85 years and over
+ 
+    Table 4:     Sex by Age (Asian Alone)
+    Universe:    People who are Asian alone
+    Source code: B01001D
+    NHGIS code:  AJ6R
+        AJ6RM001:    Total
+        AJ6RM002:    Male
+        AJ6RM003:    Male: Under 5 years
+        AJ6RM004:    Male: 5 to 9 years
+        AJ6RM005:    Male: 10 to 14 years
+        AJ6RM006:    Male: 15 to 17 years
+        AJ6RM007:    Male: 18 and 19 years
+        AJ6RM008:    Male: 20 to 24 years
+        AJ6RM009:    Male: 25 to 29 years
+        AJ6RM010:    Male: 30 to 34 years
+        AJ6RM011:    Male: 35 to 44 years
+        AJ6RM012:    Male: 45 to 54 years
+        AJ6RM013:    Male: 55 to 64 years
+        AJ6RM014:    Male: 65 to 74 years
+        AJ6RM015:    Male: 75 to 84 years
+        AJ6RM016:    Male: 85 years and over
+        AJ6RM017:    Female
+        AJ6RM018:    Female: Under 5 years
+        AJ6RM019:    Female: 5 to 9 years
+        AJ6RM020:    Female: 10 to 14 years
+        AJ6RM021:    Female: 15 to 17 years
+        AJ6RM022:    Female: 18 and 19 years
+        AJ6RM023:    Female: 20 to 24 years
+        AJ6RM024:    Female: 25 to 29 years
+        AJ6RM025:    Female: 30 to 34 years
+        AJ6RM026:    Female: 35 to 44 years
+        AJ6RM027:    Female: 45 to 54 years
+        AJ6RM028:    Female: 55 to 64 years
+        AJ6RM029:    Female: 65 to 74 years
+        AJ6RM030:    Female: 75 to 84 years
+        AJ6RM031:    Female: 85 years and over
+ 
+    Table 5:     Sex by Age (Native Hawaiian and Other Pacific Islander Alone)
+    Universe:    People who are Native Hawaiian and Other Pacific Islander alone
+    Source code: B01001E
+    NHGIS code:  AJ6S
+        AJ6SM001:    Total
+        AJ6SM002:    Male
+        AJ6SM003:    Male: Under 5 years
+        AJ6SM004:    Male: 5 to 9 years
+        AJ6SM005:    Male: 10 to 14 years
+        AJ6SM006:    Male: 15 to 17 years
+        AJ6SM007:    Male: 18 and 19 years
+        AJ6SM008:    Male: 20 to 24 years
+        AJ6SM009:    Male: 25 to 29 years
+        AJ6SM010:    Male: 30 to 34 years
+        AJ6SM011:    Male: 35 to 44 years
+        AJ6SM012:    Male: 45 to 54 years
+        AJ6SM013:    Male: 55 to 64 years
+        AJ6SM014:    Male: 65 to 74 years
+        AJ6SM015:    Male: 75 to 84 years
+        AJ6SM016:    Male: 85 years and over
+        AJ6SM017:    Female
+        AJ6SM018:    Female: Under 5 years
+        AJ6SM019:    Female: 5 to 9 years
+        AJ6SM020:    Female: 10 to 14 years
+        AJ6SM021:    Female: 15 to 17 years
+        AJ6SM022:    Female: 18 and 19 years
+        AJ6SM023:    Female: 20 to 24 years
+        AJ6SM024:    Female: 25 to 29 years
+        AJ6SM025:    Female: 30 to 34 years
+        AJ6SM026:    Female: 35 to 44 years
+        AJ6SM027:    Female: 45 to 54 years
+        AJ6SM028:    Female: 55 to 64 years
+        AJ6SM029:    Female: 65 to 74 years
+        AJ6SM030:    Female: 75 to 84 years
+        AJ6SM031:    Female: 85 years and over
+ 
+    Table 6:     Sex by Age (Some Other Race Alone)
+    Universe:    People who are Some Other Race alone
+    Source code: B01001F
+    NHGIS code:  AJ6T
+        AJ6TM001:    Total
+        AJ6TM002:    Male
+        AJ6TM003:    Male: Under 5 years
+        AJ6TM004:    Male: 5 to 9 years
+        AJ6TM005:    Male: 10 to 14 years
+        AJ6TM006:    Male: 15 to 17 years
+        AJ6TM007:    Male: 18 and 19 years
+        AJ6TM008:    Male: 20 to 24 years
+        AJ6TM009:    Male: 25 to 29 years
+        AJ6TM010:    Male: 30 to 34 years
+        AJ6TM011:    Male: 35 to 44 years
+        AJ6TM012:    Male: 45 to 54 years
+        AJ6TM013:    Male: 55 to 64 years
+        AJ6TM014:    Male: 65 to 74 years
+        AJ6TM015:    Male: 75 to 84 years
+        AJ6TM016:    Male: 85 years and over
+        AJ6TM017:    Female
+        AJ6TM018:    Female: Under 5 years
+        AJ6TM019:    Female: 5 to 9 years
+        AJ6TM020:    Female: 10 to 14 years
+        AJ6TM021:    Female: 15 to 17 years
+        AJ6TM022:    Female: 18 and 19 years
+        AJ6TM023:    Female: 20 to 24 years
+        AJ6TM024:    Female: 25 to 29 years
+        AJ6TM025:    Female: 30 to 34 years
+        AJ6TM026:    Female: 35 to 44 years
+        AJ6TM027:    Female: 45 to 54 years
+        AJ6TM028:    Female: 55 to 64 years
+        AJ6TM029:    Female: 65 to 74 years
+        AJ6TM030:    Female: 75 to 84 years
+        AJ6TM031:    Female: 85 years and over
+ 
+    Table 7:     Sex by Age (Two or More Races)
+    Universe:    People who are Two or More Races
+    Source code: B01001G
+    NHGIS code:  AJ6U
+        AJ6UM001:    Total
+        AJ6UM002:    Male
+        AJ6UM003:    Male: Under 5 years
+        AJ6UM004:    Male: 5 to 9 years
+        AJ6UM005:    Male: 10 to 14 years
+        AJ6UM006:    Male: 15 to 17 years
+        AJ6UM007:    Male: 18 and 19 years
+        AJ6UM008:    Male: 20 to 24 years
+        AJ6UM009:    Male: 25 to 29 years
+        AJ6UM010:    Male: 30 to 34 years
+        AJ6UM011:    Male: 35 to 44 years
+        AJ6UM012:    Male: 45 to 54 years
+        AJ6UM013:    Male: 55 to 64 years
+        AJ6UM014:    Male: 65 to 74 years
+        AJ6UM015:    Male: 75 to 84 years
+        AJ6UM016:    Male: 85 years and over
+        AJ6UM017:    Female
+        AJ6UM018:    Female: Under 5 years
+        AJ6UM019:    Female: 5 to 9 years
+        AJ6UM020:    Female: 10 to 14 years
+        AJ6UM021:    Female: 15 to 17 years
+        AJ6UM022:    Female: 18 and 19 years
+        AJ6UM023:    Female: 20 to 24 years
+        AJ6UM024:    Female: 25 to 29 years
+        AJ6UM025:    Female: 30 to 34 years
+        AJ6UM026:    Female: 35 to 44 years
+        AJ6UM027:    Female: 45 to 54 years
+        AJ6UM028:    Female: 55 to 64 years
+        AJ6UM029:    Female: 65 to 74 years
+        AJ6UM030:    Female: 75 to 84 years
+        AJ6UM031:    Female: 85 years and over
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles.
+        IPUMS National Historical Geographic Information System: Version 18.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2023.
+        http://doi.org/10.18128/D050.V18.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455

@@ -1,0 +1,1274 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0014_ts_nominal_20185_county'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Geographic Integration Methods
+    - Source Data
+    - Citation and Use
+ 
+Detailed notes on time series design and comparability are available at: 
+    https://www.nhgis.org/sites/www.nhgis.org/files/nhgis_time_series_tables.pdf 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Time series layout:     Time varies by file
+Geographic level:       County (by State)
+Geographic integration: Nominal
+Measurement time:       2014-2018
+ 
+Tables:
+ 
+1. Total Population
+   Code: AV0
+   Subdivided into 4 files:
+       nhgis0014_ts_20105_county.csv
+       nhgis0014_ts_20145_county.csv
+       nhgis0014_ts_20185_county.csv
+       nhgis0014_ts_20225_county.csv
+ 
+2. Persons by Sex [2]
+   Code: AV1
+   Subdivided into 4 files:
+       nhgis0014_ts_20105_county.csv
+       nhgis0014_ts_20145_county.csv
+       nhgis0014_ts_20185_county.csv
+       nhgis0014_ts_20225_county.csv
+ 
+3. Persons of Hispanic or Latino Origin
+   Code: A35
+   Subdivided into 4 files:
+       nhgis0014_ts_20105_county.csv
+       nhgis0014_ts_20145_county.csv
+       nhgis0014_ts_20185_county.csv
+       nhgis0014_ts_20225_county.csv
+ 
+4. Total Households
+   Code: AR5
+   Subdivided into 4 files:
+       nhgis0014_ts_20105_county.csv
+       nhgis0014_ts_20145_county.csv
+       nhgis0014_ts_20185_county.csv
+       nhgis0014_ts_20225_county.csv
+ 
+5. Persons of Marrying Age* by Sex [2] by Marital Status [6]
+   Code: BL1
+   Subdivided into 4 files:
+       nhgis0014_ts_20105_county.csv
+       nhgis0014_ts_20145_county.csv
+       nhgis0014_ts_20185_county.csv
+       nhgis0014_ts_20225_county.csv
+ 
+6. Persons by Nativity [2]
+   Code: AT5
+   Subdivided into 4 files:
+       nhgis0014_ts_20105_county.csv
+       nhgis0014_ts_20145_county.csv
+       nhgis0014_ts_20185_county.csv
+       nhgis0014_ts_20225_county.csv
+ 
+7. Persons 18 Years and Over by Educational Attainment [7]
+   Code: B87
+   Subdivided into 4 files:
+       nhgis0014_ts_20105_county.csv
+       nhgis0014_ts_20145_county.csv
+       nhgis0014_ts_20185_county.csv
+       nhgis0014_ts_20225_county.csv
+ 
+8. Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7]
+   Code: B91
+   Subdivided into 4 files:
+       nhgis0014_ts_20105_county.csv
+       nhgis0014_ts_20145_county.csv
+       nhgis0014_ts_20185_county.csv
+       nhgis0014_ts_20225_county.csv
+ 
+9. Persons 16 Years and Over by Labor Force and Employment Status [6]
+   Code: B84
+   Subdivided into 4 files:
+       nhgis0014_ts_20105_county.csv
+       nhgis0014_ts_20145_county.csv
+       nhgis0014_ts_20185_county.csv
+       nhgis0014_ts_20225_county.csv
+ 
+10. Households by Income* in Previous Year [4]
+    Code: BS7
+    Subdivided into 4 files:
+       nhgis0014_ts_20105_county.csv
+       nhgis0014_ts_20145_county.csv
+       nhgis0014_ts_20185_county.csv
+       nhgis0014_ts_20225_county.csv
+ 
+11. Median Household Income in Previous Year
+    Code: B79
+    Subdivided into 4 files:
+       nhgis0014_ts_20105_county.csv
+       nhgis0014_ts_20145_county.csv
+       nhgis0014_ts_20185_county.csv
+       nhgis0014_ts_20225_county.csv
+ 
+12. Per Capita Income in Previous Year
+    Code: BD5
+    Subdivided into 4 files:
+       nhgis0014_ts_20105_county.csv
+       nhgis0014_ts_20145_county.csv
+       nhgis0014_ts_20185_county.csv
+       nhgis0014_ts_20225_county.csv
+ 
+13. Persons* below Poverty Level in Previous Year
+    Code: CL6
+    Subdivided into 4 files:
+       nhgis0014_ts_20105_county.csv
+       nhgis0014_ts_20145_county.csv
+       nhgis0014_ts_20185_county.csv
+       nhgis0014_ts_20225_county.csv
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STATE:       NHGIS Integrated State Name
+        STATEFP:     FIPS State Code
+        STATENH:     NHGIS Integrated State Code
+        COUNTY:      NHGIS Integrated County Name
+        COUNTYFP:    FIPS County Code
+        COUNTYNH:    NHGIS Integrated County Code
+        NAME:        Area Name, 2014-2018
+ 
+Table 1: (AV0) Total Population
+        AV0AA185:    Persons: Total
+ 
+Table 2: (AV1) Persons by Sex [2]
+        AV1AA185:    Persons: Male
+        AV1AB185:    Persons: Female
+ 
+Table 3: (A35) Persons of Hispanic or Latino Origin
+        A35AA185:    Persons: Hispanic or Latino
+ 
+Table 4: (AR5) Total Households
+        AR5AA185:    Households: Total
+ 
+Table 5: (BL1) Persons of Marrying Age* by Sex [2] by Marital Status [6]
+        BL1AA185:    Persons: Male ~ Never married
+        BL1AB185:    Persons: Male ~ Now married
+        BL1AC185:    Persons: Male ~ Now married--Not separated
+        BL1AD185:    Persons: Male ~ Now married--Separated
+        BL1AE185:    Persons: Male ~ Widowed
+        BL1AF185:    Persons: Male ~ Divorced
+        BL1AG185:    Persons: Female ~ Never married
+        BL1AH185:    Persons: Female ~ Now married
+        BL1AI185:    Persons: Female ~ Now married--Not separated
+        BL1AJ185:    Persons: Female ~ Now married--Separated
+        BL1AK185:    Persons: Female ~ Widowed
+        BL1AL185:    Persons: Female ~ Divorced
+ 
+Table 6: (AT5) Persons by Nativity [2]
+        AT5AA185:    Persons: Native
+        AT5AB185:    Persons: Foreign born
+ 
+Table 7: (B87) Persons 18 Years and Over by Educational Attainment [7]
+        B87AA185:    Persons: 18 years and over ~ Less than 9th grade
+        B87AB185:    Persons: 18 years and over ~ 9th to 12th grade, no diploma
+        B87AC185:    Persons: 18 years and over ~ High school graduate, GED, or alternative
+        B87AD185:    Persons: 18 years and over ~ Some college, no degree
+        B87AE185:    Persons: 18 years and over ~ Associate degree
+        B87AF185:    Persons: 18 years and over ~ Bachelor's degree
+        B87AG185:    Persons: 18 years and over ~ Graduate or professional degree
+ 
+Table 8: (B91) Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7]
+        B91AA185:    Persons: Male ~ 18 to 24 years ~ Less than 9th grade
+        B91AB185:    Persons: Male ~ 18 to 24 years ~ 9th to 12th grade, no diploma
+        B91AC185:    Persons: Male ~ 18 to 24 years ~ High school graduate, GED, or alternative
+        B91AD185:    Persons: Male ~ 18 to 24 years ~ Some college, no degree
+        B91AE185:    Persons: Male ~ 18 to 24 years ~ Associate's degree
+        B91AF185:    Persons: Male ~ 18 to 24 years ~ Bachelor's degree
+        B91AG185:    Persons: Male ~ 18 to 24 years ~ Graduate or professional degree
+        B91AH185:    Persons: Male ~ 25 to 34 years ~ Less than 9th grade
+        B91AI185:    Persons: Male ~ 25 to 34 years ~ 9th to 12th grade, no diploma
+        B91AJ185:    Persons: Male ~ 25 to 34 years ~ High school graduate, GED, or alternative
+        B91AK185:    Persons: Male ~ 25 to 34 years ~ Some college, no degree
+        B91AL185:    Persons: Male ~ 25 to 34 years ~ Associate's degree
+        B91AM185:    Persons: Male ~ 25 to 34 years ~ Bachelor's degree
+        B91AN185:    Persons: Male ~ 25 to 34 years ~ Graduate or professional degree
+        B91AO185:    Persons: Male ~ 35 to 44 years ~ Less than 9th grade
+        B91AP185:    Persons: Male ~ 35 to 44 years ~ 9th to 12th grade, no diploma
+        B91AQ185:    Persons: Male ~ 35 to 44 years ~ High school graduate, GED, or alternative
+        B91AR185:    Persons: Male ~ 35 to 44 years ~ Some college, no degree
+        B91AS185:    Persons: Male ~ 35 to 44 years ~ Associate's degree
+        B91AT185:    Persons: Male ~ 35 to 44 years ~ Bachelor's degree
+        B91AU185:    Persons: Male ~ 35 to 44 years ~ Graduate or professional degree
+        B91AV185:    Persons: Male ~ 45 to 64 years ~ Less than 9th grade
+        B91AW185:    Persons: Male ~ 45 to 64 years ~ 9th to 12th grade, no diploma
+        B91AX185:    Persons: Male ~ 45 to 64 years ~ High school graduate, GED, or alternative
+        B91AY185:    Persons: Male ~ 45 to 64 years ~ Some college, no degree
+        B91AZ185:    Persons: Male ~ 45 to 64 years ~ Associate's degree
+        B91BA185:    Persons: Male ~ 45 to 64 years ~ Bachelor's degree
+        B91BB185:    Persons: Male ~ 45 to 64 years ~ Graduate or professional degree
+        B91BC185:    Persons: Male ~ 65 years and over ~ Less than 9th grade
+        B91BD185:    Persons: Male ~ 65 years and over ~ 9th to 12th grade, no diploma
+        B91BE185:    Persons: Male ~ 65 years and over ~ High school graduate, GED, or alternative
+        B91BF185:    Persons: Male ~ 65 years and over ~ Some college, no degree
+        B91BG185:    Persons: Male ~ 65 years and over ~ Associate's degree
+        B91BH185:    Persons: Male ~ 65 years and over ~ Bachelor's degree
+        B91BI185:    Persons: Male ~ 65 years and over ~ Graduate or professional degree
+        B91BJ185:    Persons: Female ~ 18 to 24 years ~ Less than 9th grade
+        B91BK185:    Persons: Female ~ 18 to 24 years ~ 9th to 12th grade, no diploma
+        B91BL185:    Persons: Female ~ 18 to 24 years ~ High school graduate, GED, or alternative
+        B91BM185:    Persons: Female ~ 18 to 24 years ~ Some college, no degree
+        B91BN185:    Persons: Female ~ 18 to 24 years ~ Associate's degree
+        B91BO185:    Persons: Female ~ 18 to 24 years ~ Bachelor's degree
+        B91BP185:    Persons: Female ~ 18 to 24 years ~ Graduate or professional degree
+        B91BQ185:    Persons: Female ~ 25 to 34 years ~ Less than 9th grade
+        B91BR185:    Persons: Female ~ 25 to 34 years ~ 9th to 12th grade, no diploma
+        B91BS185:    Persons: Female ~ 25 to 34 years ~ High school graduate, GED, or alternative
+        B91BT185:    Persons: Female ~ 25 to 34 years ~ Some college, no degree
+        B91BU185:    Persons: Female ~ 25 to 34 years ~ Associate's degree
+        B91BV185:    Persons: Female ~ 25 to 34 years ~ Bachelor's degree
+        B91BW185:    Persons: Female ~ 25 to 34 years ~ Graduate or professional degree
+        B91BX185:    Persons: Female ~ 35 to 44 years ~ Less than 9th grade
+        B91BY185:    Persons: Female ~ 35 to 44 years ~ 9th to 12th grade, no diploma
+        B91BZ185:    Persons: Female ~ 35 to 44 years ~ High school graduate, GED, or alternative
+        B91CA185:    Persons: Female ~ 35 to 44 years ~ Some college, no degree
+        B91CB185:    Persons: Female ~ 35 to 44 years ~ Associate's degree
+        B91CC185:    Persons: Female ~ 35 to 44 years ~ Bachelor's degree
+        B91CD185:    Persons: Female ~ 35 to 44 years ~ Graduate or professional degree
+        B91CE185:    Persons: Female ~ 45 to 64 years ~ Less than 9th grade
+        B91CF185:    Persons: Female ~ 45 to 64 years ~ 9th to 12th grade, no diploma
+        B91CG185:    Persons: Female ~ 45 to 64 years ~ High school graduate, GED, or alternative
+        B91CH185:    Persons: Female ~ 45 to 64 years ~ Some college, no degree
+        B91CI185:    Persons: Female ~ 45 to 64 years ~ Associate's degree
+        B91CJ185:    Persons: Female ~ 45 to 64 years ~ Bachelor's degree
+        B91CK185:    Persons: Female ~ 45 to 64 years ~ Graduate or professional degree
+        B91CL185:    Persons: Female ~ 65 years and over ~ Less than 9th grade
+        B91CM185:    Persons: Female ~ 65 years and over ~ 9th to 12th grade, no diploma
+        B91CN185:    Persons: Female ~ 65 years and over ~ High school graduate, GED, or alternative
+        B91CO185:    Persons: Female ~ 65 years and over ~ Some college, no degree
+        B91CP185:    Persons: Female ~ 65 years and over ~ Associate's degree
+        B91CQ185:    Persons: Female ~ 65 years and over ~ Bachelor's degree
+        B91CR185:    Persons: Female ~ 65 years and over ~ Graduate or professional degree
+ 
+Table 9: (B84) Persons 16 Years and Over by Labor Force and Employment Status [6]
+        B84AA185:    Persons: 16 years and over ~ In labor force
+        B84AB185:    Persons: 16 years and over ~ In labor force--In Armed Forces
+        B84AC185:    Persons: 16 years and over ~ In labor force--Civilian
+        B84AD185:    Persons: 16 years and over ~ In labor force--Civilian--Employed
+        B84AE185:    Persons: 16 years and over ~ In labor force--Civilian--Unemployed
+        B84AF185:    Persons: 16 years and over ~ Not in labor force
+ 
+Table 10: (BS7) Households by Income* in Previous Year [4]
+        BS7AA185:    Households: Income less than $10,000
+        BS7AB185:    Households: Income $10,000 to $14,999
+        BS7AC185:    Households: Income $15,000 to $24,999
+        BS7AD185:    Households: Income $25,000 or more
+ 
+Table 11: (B79) Median Household Income in Previous Year
+        B79AA185:    Median income in previous year: Households
+ 
+Table 12: (BD5) Per Capita Income in Previous Year
+        BD5AA185:    Per capita income in previous year
+ 
+Table 13: (CL6) Persons* below Poverty Level in Previous Year
+        CL6AA185:    Persons: Poverty status is determined ~ Income below poverty level
+ 
+Margins of Error 
+ 
+Table 1: (AV0) Total Population
+        AV0AA185M:   Margin of error: Persons: Total
+ 
+Table 2: (AV1) Persons by Sex [2]
+        AV1AA185M:   Margin of error: Persons: Male
+        AV1AB185M:   Margin of error: Persons: Female
+ 
+Table 3: (A35) Persons of Hispanic or Latino Origin
+        A35AA185M:   Margin of error: Persons: Hispanic or Latino
+ 
+Table 4: (AR5) Total Households
+        AR5AA185M:   Margin of error: Households: Total
+ 
+Table 5: (BL1) Persons of Marrying Age* by Sex [2] by Marital Status [6]
+        BL1AA185M:   Margin of error: Persons: Male ~ Never married
+        BL1AB185M:   Margin of error: Persons: Male ~ Now married
+        BL1AC185M:   Margin of error: Persons: Male ~ Now married--Not separated
+        BL1AD185M:   Margin of error: Persons: Male ~ Now married--Separated
+        BL1AE185M:   Margin of error: Persons: Male ~ Widowed
+        BL1AF185M:   Margin of error: Persons: Male ~ Divorced
+        BL1AG185M:   Margin of error: Persons: Female ~ Never married
+        BL1AH185M:   Margin of error: Persons: Female ~ Now married
+        BL1AI185M:   Margin of error: Persons: Female ~ Now married--Not separated
+        BL1AJ185M:   Margin of error: Persons: Female ~ Now married--Separated
+        BL1AK185M:   Margin of error: Persons: Female ~ Widowed
+        BL1AL185M:   Margin of error: Persons: Female ~ Divorced
+ 
+Table 6: (AT5) Persons by Nativity [2]
+        AT5AA185M:   Margin of error: Persons: Native
+        AT5AB185M:   Margin of error: Persons: Foreign born
+ 
+Table 7: (B87) Persons 18 Years and Over by Educational Attainment [7]
+        B87AA185M:   Margin of error: Persons: 18 years and over ~ Less than 9th grade
+        B87AB185M:   Margin of error: Persons: 18 years and over ~ 9th to 12th grade, no diploma
+        B87AC185M:   Margin of error: Persons: 18 years and over ~ High school graduate, GED, or alternative
+        B87AD185M:   Margin of error: Persons: 18 years and over ~ Some college, no degree
+        B87AE185M:   Margin of error: Persons: 18 years and over ~ Associate degree
+        B87AF185M:   Margin of error: Persons: 18 years and over ~ Bachelor's degree
+        B87AG185M:   Margin of error: Persons: 18 years and over ~ Graduate or professional degree
+ 
+Table 8: (B91) Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7]
+        B91AA185M:   Margin of error: Persons: Male ~ 18 to 24 years ~ Less than 9th grade
+        B91AB185M:   Margin of error: Persons: Male ~ 18 to 24 years ~ 9th to 12th grade, no diploma
+        B91AC185M:   Margin of error: Persons: Male ~ 18 to 24 years ~ High school graduate, GED, or alternative
+        B91AD185M:   Margin of error: Persons: Male ~ 18 to 24 years ~ Some college, no degree
+        B91AE185M:   Margin of error: Persons: Male ~ 18 to 24 years ~ Associate's degree
+        B91AF185M:   Margin of error: Persons: Male ~ 18 to 24 years ~ Bachelor's degree
+        B91AG185M:   Margin of error: Persons: Male ~ 18 to 24 years ~ Graduate or professional degree
+        B91AH185M:   Margin of error: Persons: Male ~ 25 to 34 years ~ Less than 9th grade
+        B91AI185M:   Margin of error: Persons: Male ~ 25 to 34 years ~ 9th to 12th grade, no diploma
+        B91AJ185M:   Margin of error: Persons: Male ~ 25 to 34 years ~ High school graduate, GED, or alternative
+        B91AK185M:   Margin of error: Persons: Male ~ 25 to 34 years ~ Some college, no degree
+        B91AL185M:   Margin of error: Persons: Male ~ 25 to 34 years ~ Associate's degree
+        B91AM185M:   Margin of error: Persons: Male ~ 25 to 34 years ~ Bachelor's degree
+        B91AN185M:   Margin of error: Persons: Male ~ 25 to 34 years ~ Graduate or professional degree
+        B91AO185M:   Margin of error: Persons: Male ~ 35 to 44 years ~ Less than 9th grade
+        B91AP185M:   Margin of error: Persons: Male ~ 35 to 44 years ~ 9th to 12th grade, no diploma
+        B91AQ185M:   Margin of error: Persons: Male ~ 35 to 44 years ~ High school graduate, GED, or alternative
+        B91AR185M:   Margin of error: Persons: Male ~ 35 to 44 years ~ Some college, no degree
+        B91AS185M:   Margin of error: Persons: Male ~ 35 to 44 years ~ Associate's degree
+        B91AT185M:   Margin of error: Persons: Male ~ 35 to 44 years ~ Bachelor's degree
+        B91AU185M:   Margin of error: Persons: Male ~ 35 to 44 years ~ Graduate or professional degree
+        B91AV185M:   Margin of error: Persons: Male ~ 45 to 64 years ~ Less than 9th grade
+        B91AW185M:   Margin of error: Persons: Male ~ 45 to 64 years ~ 9th to 12th grade, no diploma
+        B91AX185M:   Margin of error: Persons: Male ~ 45 to 64 years ~ High school graduate, GED, or alternative
+        B91AY185M:   Margin of error: Persons: Male ~ 45 to 64 years ~ Some college, no degree
+        B91AZ185M:   Margin of error: Persons: Male ~ 45 to 64 years ~ Associate's degree
+        B91BA185M:   Margin of error: Persons: Male ~ 45 to 64 years ~ Bachelor's degree
+        B91BB185M:   Margin of error: Persons: Male ~ 45 to 64 years ~ Graduate or professional degree
+        B91BC185M:   Margin of error: Persons: Male ~ 65 years and over ~ Less than 9th grade
+        B91BD185M:   Margin of error: Persons: Male ~ 65 years and over ~ 9th to 12th grade, no diploma
+        B91BE185M:   Margin of error: Persons: Male ~ 65 years and over ~ High school graduate, GED, or alternative
+        B91BF185M:   Margin of error: Persons: Male ~ 65 years and over ~ Some college, no degree
+        B91BG185M:   Margin of error: Persons: Male ~ 65 years and over ~ Associate's degree
+        B91BH185M:   Margin of error: Persons: Male ~ 65 years and over ~ Bachelor's degree
+        B91BI185M:   Margin of error: Persons: Male ~ 65 years and over ~ Graduate or professional degree
+        B91BJ185M:   Margin of error: Persons: Female ~ 18 to 24 years ~ Less than 9th grade
+        B91BK185M:   Margin of error: Persons: Female ~ 18 to 24 years ~ 9th to 12th grade, no diploma
+        B91BL185M:   Margin of error: Persons: Female ~ 18 to 24 years ~ High school graduate, GED, or alternative
+        B91BM185M:   Margin of error: Persons: Female ~ 18 to 24 years ~ Some college, no degree
+        B91BN185M:   Margin of error: Persons: Female ~ 18 to 24 years ~ Associate's degree
+        B91BO185M:   Margin of error: Persons: Female ~ 18 to 24 years ~ Bachelor's degree
+        B91BP185M:   Margin of error: Persons: Female ~ 18 to 24 years ~ Graduate or professional degree
+        B91BQ185M:   Margin of error: Persons: Female ~ 25 to 34 years ~ Less than 9th grade
+        B91BR185M:   Margin of error: Persons: Female ~ 25 to 34 years ~ 9th to 12th grade, no diploma
+        B91BS185M:   Margin of error: Persons: Female ~ 25 to 34 years ~ High school graduate, GED, or alternative
+        B91BT185M:   Margin of error: Persons: Female ~ 25 to 34 years ~ Some college, no degree
+        B91BU185M:   Margin of error: Persons: Female ~ 25 to 34 years ~ Associate's degree
+        B91BV185M:   Margin of error: Persons: Female ~ 25 to 34 years ~ Bachelor's degree
+        B91BW185M:   Margin of error: Persons: Female ~ 25 to 34 years ~ Graduate or professional degree
+        B91BX185M:   Margin of error: Persons: Female ~ 35 to 44 years ~ Less than 9th grade
+        B91BY185M:   Margin of error: Persons: Female ~ 35 to 44 years ~ 9th to 12th grade, no diploma
+        B91BZ185M:   Margin of error: Persons: Female ~ 35 to 44 years ~ High school graduate, GED, or alternative
+        B91CA185M:   Margin of error: Persons: Female ~ 35 to 44 years ~ Some college, no degree
+        B91CB185M:   Margin of error: Persons: Female ~ 35 to 44 years ~ Associate's degree
+        B91CC185M:   Margin of error: Persons: Female ~ 35 to 44 years ~ Bachelor's degree
+        B91CD185M:   Margin of error: Persons: Female ~ 35 to 44 years ~ Graduate or professional degree
+        B91CE185M:   Margin of error: Persons: Female ~ 45 to 64 years ~ Less than 9th grade
+        B91CF185M:   Margin of error: Persons: Female ~ 45 to 64 years ~ 9th to 12th grade, no diploma
+        B91CG185M:   Margin of error: Persons: Female ~ 45 to 64 years ~ High school graduate, GED, or alternative
+        B91CH185M:   Margin of error: Persons: Female ~ 45 to 64 years ~ Some college, no degree
+        B91CI185M:   Margin of error: Persons: Female ~ 45 to 64 years ~ Associate's degree
+        B91CJ185M:   Margin of error: Persons: Female ~ 45 to 64 years ~ Bachelor's degree
+        B91CK185M:   Margin of error: Persons: Female ~ 45 to 64 years ~ Graduate or professional degree
+        B91CL185M:   Margin of error: Persons: Female ~ 65 years and over ~ Less than 9th grade
+        B91CM185M:   Margin of error: Persons: Female ~ 65 years and over ~ 9th to 12th grade, no diploma
+        B91CN185M:   Margin of error: Persons: Female ~ 65 years and over ~ High school graduate, GED, or alternative
+        B91CO185M:   Margin of error: Persons: Female ~ 65 years and over ~ Some college, no degree
+        B91CP185M:   Margin of error: Persons: Female ~ 65 years and over ~ Associate's degree
+        B91CQ185M:   Margin of error: Persons: Female ~ 65 years and over ~ Bachelor's degree
+        B91CR185M:   Margin of error: Persons: Female ~ 65 years and over ~ Graduate or professional degree
+ 
+Table 9: (B84) Persons 16 Years and Over by Labor Force and Employment Status [6]
+        B84AA185M:   Margin of error: Persons: 16 years and over ~ In labor force
+        B84AB185M:   Margin of error: Persons: 16 years and over ~ In labor force--In Armed Forces
+        B84AC185M:   Margin of error: Persons: 16 years and over ~ In labor force--Civilian
+        B84AD185M:   Margin of error: Persons: 16 years and over ~ In labor force--Civilian--Employed
+        B84AE185M:   Margin of error: Persons: 16 years and over ~ In labor force--Civilian--Unemployed
+        B84AF185M:   Margin of error: Persons: 16 years and over ~ Not in labor force
+ 
+Table 10: (BS7) Households by Income* in Previous Year [4]
+        BS7AA185M:   Margin of error: Households: Income less than $10,000
+        BS7AB185M:   Margin of error: Households: Income $10,000 to $14,999
+        BS7AC185M:   Margin of error: Households: Income $15,000 to $24,999
+        BS7AD185M:   Margin of error: Households: Income $25,000 or more
+ 
+Table 11: (B79) Median Household Income in Previous Year
+        B79AA185M:   Margin of error: Median income in previous year: Households
+ 
+Table 12: (BD5) Per Capita Income in Previous Year
+        BD5AA185M:   Margin of error: Per capita income in previous year
+ 
+Table 13: (CL6) Persons* below Poverty Level in Previous Year
+        CL6AA185M:   Margin of error: Persons: Poverty status is determined ~ Income below poverty level
+ 
+--------------------------------------------------------------------------------
+Geographic Integration Methods
+--------------------------------------------------------------------------------
+ 
+Nominal Integration:
+
+    Nominally integrated tables link geographic units across time according to
+    their names and codes, disregarding any changes in unit boundaries. The
+    identified geographic units match those from each census source, so the
+    spatial definitions and total number of units may vary from one time to
+    another (e.g., a city may annex land, a tract may be split in two, a new
+    county may be created, etc.). The tables include data for a particular
+    geographic unit only at times when the unit's name or code was in use,
+    resulting in truncated time series for some areas.
+    
+    Users should be cautious when interpreting changes in nominally integrated
+    time series because a single unit code may refer to distinctly different
+    areas at different times. If you are uncertain whether any boundaries
+    changed in your areas of interest, we recommend inspecting NHGIS GIS files
+    to confirm. (NHGIS supplies GIS boundary files for all units and years in
+    nominally integrated time series *except* 1970 places and county
+    subdivisions.)
+    
+    Alternatively, for some topics and time periods, NHGIS provides
+    "geographically standardized" time series, which provide data from multiple
+    times for a single census's geographic units (e.g., 2000 and 2010 data for
+    2010 census units). A disadvantage of standardized time series is that, in
+    areas where source units do not nest perfectly within a unit of the standard
+    year (e.g., where a source 2000 unit intersects multiple 2010 units), NHGIS
+    applies interpolation to standardize the data, a process which may
+    occasionally produce substantial errors.
+
+Complete documentation on time series integration methods is available at:
+    https://www.nhgis.org/documentation/time-series
+ 
+--------------------------------------------------------------------------------
+Source Data
+--------------------------------------------------------------------------------
+ 
+Additional documentation on NHGIS data sources is available at:
+    https://www.nhgis.org/documentation/tabular-data
+
+Table 1: (AV0) Total Population
+ 
+    Time series AA: Persons: Total
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B01003. Total Population
+                Universe: Total population
+                    Variable: [AJWM001] Total
+ 
+ 
+Table 2: (AV1) Persons by Sex [2]
+ 
+    Time series AA: Persons: Male
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B01001. Sex by Age
+                Universe: Total population
+                    Variable: [AJWB002] Male
+ 
+    Time series AB: Persons: Female
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B01001. Sex by Age
+                Universe: Total population
+                    Variable: [AJWB026] Female
+ 
+ 
+Table 3: (A35) Persons of Hispanic or Latino Origin
+ 
+    Time series AA: Persons: Hispanic or Latino
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B03001. Hispanic or Latino Origin by Specific Origin
+                Universe: Total population
+                    Variable: [AJ63003] Hispanic or Latino
+ 
+ 
+Table 4: (AR5) Total Households
+ 
+    Time series AA: Households: Total
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B11001. Household Type (Including Living Alone)
+                Universe: Households
+                    Variable: [AJXK001] Total
+ 
+ 
+Table 5: (BL1) Persons of Marrying Age* by Sex [2] by Marital Status [6]
+ 
+    Time series AA: Persons: Male ~ Never married
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B12001. Sex by Marital Status for the Population 15 Years and Over
+                Universe: Population 15 years and over
+                    Variable: [AJYB003] Male: Never married
+ 
+    Time series AB: Persons: Male ~ Now married
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B12001. Sex by Marital Status for the Population 15 Years and Over
+                Universe: Population 15 years and over
+                    Variable: [AJYB004] Male: Now married
+ 
+    Time series AC: Persons: Male ~ Now married--Not separated
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B12001. Sex by Marital Status for the Population 15 Years and Over
+                Universe: Population 15 years and over
+                    Variable: [AJYB005] Male: Now married: Married, spouse present
+                    Variable: [AJYB008] Male: Now married: Married, spouse absent: Other
+ 
+    Time series AD: Persons: Male ~ Now married--Separated
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B12001. Sex by Marital Status for the Population 15 Years and Over
+                Universe: Population 15 years and over
+                    Variable: [AJYB007] Male: Now married: Married, spouse absent: Separated
+ 
+    Time series AE: Persons: Male ~ Widowed
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B12001. Sex by Marital Status for the Population 15 Years and Over
+                Universe: Population 15 years and over
+                    Variable: [AJYB009] Male: Widowed
+ 
+    Time series AF: Persons: Male ~ Divorced
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B12001. Sex by Marital Status for the Population 15 Years and Over
+                Universe: Population 15 years and over
+                    Variable: [AJYB010] Male: Divorced
+ 
+    Time series AG: Persons: Female ~ Never married
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B12001. Sex by Marital Status for the Population 15 Years and Over
+                Universe: Population 15 years and over
+                    Variable: [AJYB012] Female: Never married
+ 
+    Time series AH: Persons: Female ~ Now married
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B12001. Sex by Marital Status for the Population 15 Years and Over
+                Universe: Population 15 years and over
+                    Variable: [AJYB013] Female: Now married
+ 
+    Time series AI: Persons: Female ~ Now married--Not separated
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B12001. Sex by Marital Status for the Population 15 Years and Over
+                Universe: Population 15 years and over
+                    Variable: [AJYB014] Female: Now married: Married, spouse present
+                    Variable: [AJYB017] Female: Now married: Married, spouse absent: Other
+ 
+    Time series AJ: Persons: Female ~ Now married--Separated
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B12001. Sex by Marital Status for the Population 15 Years and Over
+                Universe: Population 15 years and over
+                    Variable: [AJYB016] Female: Now married: Married, spouse absent: Separated
+ 
+    Time series AK: Persons: Female ~ Widowed
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B12001. Sex by Marital Status for the Population 15 Years and Over
+                Universe: Population 15 years and over
+                    Variable: [AJYB018] Female: Widowed
+ 
+    Time series AL: Persons: Female ~ Divorced
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B12001. Sex by Marital Status for the Population 15 Years and Over
+                Universe: Population 15 years and over
+                    Variable: [AJYB019] Female: Divorced
+ 
+ 
+Table 6: (AT5) Persons by Nativity [2]
+ 
+    Time series AA: Persons: Native
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B05012. Nativity in the United States
+                Universe: Total population in the United States
+                    Variable: [AJ7V002] Native
+ 
+    Time series AB: Persons: Foreign born
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B05012. Nativity in the United States
+                Universe: Total population in the United States
+                    Variable: [AJ7V003] Foreign-Born
+ 
+ 
+Table 7: (B87) Persons 18 Years and Over by Educational Attainment [7]
+ 
+    Time series AA: Persons: 18 years and over ~ Less than 9th grade
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9004] Male: 18 to 24 years: Less than 9th grade
+                    Variable: [AKC9012] Male: 25 to 34 years: Less than 9th grade
+                    Variable: [AKC9020] Male: 35 to 44 years: Less than 9th grade
+                    Variable: [AKC9028] Male: 45 to 64 years: Less than 9th grade
+                    Variable: [AKC9036] Male: 65 years and over: Less than 9th grade
+                    Variable: [AKC9045] Female: 18 to 24 years: Less than 9th grade
+                    Variable: [AKC9053] Female: 25 to 34 years: Less than 9th grade
+                    Variable: [AKC9061] Female: 35 to 44 years: Less than 9th grade
+                    Variable: [AKC9069] Female: 45 to 64 years: Less than 9th grade
+                    Variable: [AKC9077] Female: 65 years and over: Less than 9th grade
+ 
+    Time series AB: Persons: 18 years and over ~ 9th to 12th grade, no diploma
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9005] Male: 18 to 24 years: 9th to 12th grade, no diploma
+                    Variable: [AKC9013] Male: 25 to 34 years: 9th to 12th grade, no diploma
+                    Variable: [AKC9021] Male: 35 to 44 years: 9th to 12th grade, no diploma
+                    Variable: [AKC9029] Male: 45 to 64 years: 9th to 12th grade, no diploma
+                    Variable: [AKC9037] Male: 65 years and over: 9th to 12th grade, no diploma
+                    Variable: [AKC9046] Female: 18 to 24 years: 9th to 12th grade, no diploma
+                    Variable: [AKC9054] Female: 25 to 34 years: 9th to 12th grade, no diploma
+                    Variable: [AKC9062] Female: 35 to 44 years: 9th to 12th grade, no diploma
+                    Variable: [AKC9070] Female: 45 to 64 years: 9th to 12th grade, no diploma
+                    Variable: [AKC9078] Female: 65 years and over: 9th to 12th grade, no diploma
+ 
+    Time series AC: Persons: 18 years and over ~ High school graduate, GED, or alternative
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9006] Male: 18 to 24 years: High school graduate (includes equivalency)
+                    Variable: [AKC9014] Male: 25 to 34 years: High school graduate (includes equivalency)
+                    Variable: [AKC9022] Male: 35 to 44 years: High school graduate (includes equivalency)
+                    Variable: [AKC9030] Male: 45 to 64 years: High school graduate (includes equivalency)
+                    Variable: [AKC9038] Male: 65 years and over: High school graduate (includes equivalency)
+                    Variable: [AKC9047] Female: 18 to 24 years: High school graduate (includes equivalency)
+                    Variable: [AKC9055] Female: 25 to 34 years: High school graduate (includes equivalency)
+                    Variable: [AKC9063] Female: 35 to 44 years: High school graduate (includes equivalency)
+                    Variable: [AKC9071] Female: 45 to 64 years: High school graduate (includes equivalency)
+                    Variable: [AKC9079] Female: 65 years and over: High school graduate (includes equivalency)
+ 
+    Time series AD: Persons: 18 years and over ~ Some college, no degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9007] Male: 18 to 24 years: Some college, no degree
+                    Variable: [AKC9015] Male: 25 to 34 years: Some college, no degree
+                    Variable: [AKC9023] Male: 35 to 44 years: Some college, no degree
+                    Variable: [AKC9031] Male: 45 to 64 years: Some college, no degree
+                    Variable: [AKC9039] Male: 65 years and over: Some college, no degree
+                    Variable: [AKC9048] Female: 18 to 24 years: Some college, no degree
+                    Variable: [AKC9056] Female: 25 to 34 years: Some college, no degree
+                    Variable: [AKC9064] Female: 35 to 44 years: Some college, no degree
+                    Variable: [AKC9072] Female: 45 to 64 years: Some college, no degree
+                    Variable: [AKC9080] Female: 65 years and over: Some college, no degree
+ 
+    Time series AE: Persons: 18 years and over ~ Associate degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9008] Male: 18 to 24 years: Associate's degree
+                    Variable: [AKC9016] Male: 25 to 34 years: Associate's degree
+                    Variable: [AKC9024] Male: 35 to 44 years: Associate's degree
+                    Variable: [AKC9032] Male: 45 to 64 years: Associate's degree
+                    Variable: [AKC9040] Male: 65 years and over: Associate's degree
+                    Variable: [AKC9049] Female: 18 to 24 years: Associate's degree
+                    Variable: [AKC9057] Female: 25 to 34 years: Associate's degree
+                    Variable: [AKC9065] Female: 35 to 44 years: Associate's degree
+                    Variable: [AKC9073] Female: 45 to 64 years: Associate's degree
+                    Variable: [AKC9081] Female: 65 years and over: Associate's degree
+ 
+    Time series AF: Persons: 18 years and over ~ Bachelor's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9009] Male: 18 to 24 years: Bachelor's degree
+                    Variable: [AKC9017] Male: 25 to 34 years: Bachelor's degree
+                    Variable: [AKC9025] Male: 35 to 44 years: Bachelor's degree
+                    Variable: [AKC9033] Male: 45 to 64 years: Bachelor's degree
+                    Variable: [AKC9041] Male: 65 years and over: Bachelor's degree
+                    Variable: [AKC9050] Female: 18 to 24 years: Bachelor's degree
+                    Variable: [AKC9058] Female: 25 to 34 years: Bachelor's degree
+                    Variable: [AKC9066] Female: 35 to 44 years: Bachelor's degree
+                    Variable: [AKC9074] Female: 45 to 64 years: Bachelor's degree
+                    Variable: [AKC9082] Female: 65 years and over: Bachelor's degree
+ 
+    Time series AG: Persons: 18 years and over ~ Graduate or professional degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9010] Male: 18 to 24 years: Graduate or professional degree
+                    Variable: [AKC9018] Male: 25 to 34 years: Graduate or professional degree
+                    Variable: [AKC9026] Male: 35 to 44 years: Graduate or professional degree
+                    Variable: [AKC9034] Male: 45 to 64 years: Graduate or professional degree
+                    Variable: [AKC9042] Male: 65 years and over: Graduate or professional degree
+                    Variable: [AKC9051] Female: 18 to 24 years: Graduate or professional degree
+                    Variable: [AKC9059] Female: 25 to 34 years: Graduate or professional degree
+                    Variable: [AKC9067] Female: 35 to 44 years: Graduate or professional degree
+                    Variable: [AKC9075] Female: 45 to 64 years: Graduate or professional degree
+                    Variable: [AKC9083] Female: 65 years and over: Graduate or professional degree
+ 
+ 
+Table 8: (B91) Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7]
+ 
+    Time series AA: Persons: Male ~ 18 to 24 years ~ Less than 9th grade
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9004] Male: 18 to 24 years: Less than 9th grade
+ 
+    Time series AB: Persons: Male ~ 18 to 24 years ~ 9th to 12th grade, no diploma
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9005] Male: 18 to 24 years: 9th to 12th grade, no diploma
+ 
+    Time series AC: Persons: Male ~ 18 to 24 years ~ High school graduate, GED, or alternative
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9006] Male: 18 to 24 years: High school graduate (includes equivalency)
+ 
+    Time series AD: Persons: Male ~ 18 to 24 years ~ Some college, no degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9007] Male: 18 to 24 years: Some college, no degree
+ 
+    Time series AE: Persons: Male ~ 18 to 24 years ~ Associate's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9008] Male: 18 to 24 years: Associate's degree
+ 
+    Time series AF: Persons: Male ~ 18 to 24 years ~ Bachelor's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9009] Male: 18 to 24 years: Bachelor's degree
+ 
+    Time series AG: Persons: Male ~ 18 to 24 years ~ Graduate or professional degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9010] Male: 18 to 24 years: Graduate or professional degree
+ 
+    Time series AH: Persons: Male ~ 25 to 34 years ~ Less than 9th grade
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9012] Male: 25 to 34 years: Less than 9th grade
+ 
+    Time series AI: Persons: Male ~ 25 to 34 years ~ 9th to 12th grade, no diploma
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9013] Male: 25 to 34 years: 9th to 12th grade, no diploma
+ 
+    Time series AJ: Persons: Male ~ 25 to 34 years ~ High school graduate, GED, or alternative
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9014] Male: 25 to 34 years: High school graduate (includes equivalency)
+ 
+    Time series AK: Persons: Male ~ 25 to 34 years ~ Some college, no degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9015] Male: 25 to 34 years: Some college, no degree
+ 
+    Time series AL: Persons: Male ~ 25 to 34 years ~ Associate's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9016] Male: 25 to 34 years: Associate's degree
+ 
+    Time series AM: Persons: Male ~ 25 to 34 years ~ Bachelor's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9017] Male: 25 to 34 years: Bachelor's degree
+ 
+    Time series AN: Persons: Male ~ 25 to 34 years ~ Graduate or professional degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9018] Male: 25 to 34 years: Graduate or professional degree
+ 
+    Time series AO: Persons: Male ~ 35 to 44 years ~ Less than 9th grade
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9020] Male: 35 to 44 years: Less than 9th grade
+ 
+    Time series AP: Persons: Male ~ 35 to 44 years ~ 9th to 12th grade, no diploma
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9021] Male: 35 to 44 years: 9th to 12th grade, no diploma
+ 
+    Time series AQ: Persons: Male ~ 35 to 44 years ~ High school graduate, GED, or alternative
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9022] Male: 35 to 44 years: High school graduate (includes equivalency)
+ 
+    Time series AR: Persons: Male ~ 35 to 44 years ~ Some college, no degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9023] Male: 35 to 44 years: Some college, no degree
+ 
+    Time series AS: Persons: Male ~ 35 to 44 years ~ Associate's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9024] Male: 35 to 44 years: Associate's degree
+ 
+    Time series AT: Persons: Male ~ 35 to 44 years ~ Bachelor's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9025] Male: 35 to 44 years: Bachelor's degree
+ 
+    Time series AU: Persons: Male ~ 35 to 44 years ~ Graduate or professional degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9026] Male: 35 to 44 years: Graduate or professional degree
+ 
+    Time series AV: Persons: Male ~ 45 to 64 years ~ Less than 9th grade
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9028] Male: 45 to 64 years: Less than 9th grade
+ 
+    Time series AW: Persons: Male ~ 45 to 64 years ~ 9th to 12th grade, no diploma
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9029] Male: 45 to 64 years: 9th to 12th grade, no diploma
+ 
+    Time series AX: Persons: Male ~ 45 to 64 years ~ High school graduate, GED, or alternative
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9030] Male: 45 to 64 years: High school graduate (includes equivalency)
+ 
+    Time series AY: Persons: Male ~ 45 to 64 years ~ Some college, no degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9031] Male: 45 to 64 years: Some college, no degree
+ 
+    Time series AZ: Persons: Male ~ 45 to 64 years ~ Associate's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9032] Male: 45 to 64 years: Associate's degree
+ 
+    Time series BA: Persons: Male ~ 45 to 64 years ~ Bachelor's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9033] Male: 45 to 64 years: Bachelor's degree
+ 
+    Time series BB: Persons: Male ~ 45 to 64 years ~ Graduate or professional degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9034] Male: 45 to 64 years: Graduate or professional degree
+ 
+    Time series BC: Persons: Male ~ 65 years and over ~ Less than 9th grade
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9036] Male: 65 years and over: Less than 9th grade
+ 
+    Time series BD: Persons: Male ~ 65 years and over ~ 9th to 12th grade, no diploma
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9037] Male: 65 years and over: 9th to 12th grade, no diploma
+ 
+    Time series BE: Persons: Male ~ 65 years and over ~ High school graduate, GED, or alternative
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9038] Male: 65 years and over: High school graduate (includes equivalency)
+ 
+    Time series BF: Persons: Male ~ 65 years and over ~ Some college, no degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9039] Male: 65 years and over: Some college, no degree
+ 
+    Time series BG: Persons: Male ~ 65 years and over ~ Associate's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9040] Male: 65 years and over: Associate's degree
+ 
+    Time series BH: Persons: Male ~ 65 years and over ~ Bachelor's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9041] Male: 65 years and over: Bachelor's degree
+ 
+    Time series BI: Persons: Male ~ 65 years and over ~ Graduate or professional degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9042] Male: 65 years and over: Graduate or professional degree
+ 
+    Time series BJ: Persons: Female ~ 18 to 24 years ~ Less than 9th grade
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9045] Female: 18 to 24 years: Less than 9th grade
+ 
+    Time series BK: Persons: Female ~ 18 to 24 years ~ 9th to 12th grade, no diploma
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9046] Female: 18 to 24 years: 9th to 12th grade, no diploma
+ 
+    Time series BL: Persons: Female ~ 18 to 24 years ~ High school graduate, GED, or alternative
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9047] Female: 18 to 24 years: High school graduate (includes equivalency)
+ 
+    Time series BM: Persons: Female ~ 18 to 24 years ~ Some college, no degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9048] Female: 18 to 24 years: Some college, no degree
+ 
+    Time series BN: Persons: Female ~ 18 to 24 years ~ Associate's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9049] Female: 18 to 24 years: Associate's degree
+ 
+    Time series BO: Persons: Female ~ 18 to 24 years ~ Bachelor's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9050] Female: 18 to 24 years: Bachelor's degree
+ 
+    Time series BP: Persons: Female ~ 18 to 24 years ~ Graduate or professional degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9051] Female: 18 to 24 years: Graduate or professional degree
+ 
+    Time series BQ: Persons: Female ~ 25 to 34 years ~ Less than 9th grade
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9053] Female: 25 to 34 years: Less than 9th grade
+ 
+    Time series BR: Persons: Female ~ 25 to 34 years ~ 9th to 12th grade, no diploma
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9054] Female: 25 to 34 years: 9th to 12th grade, no diploma
+ 
+    Time series BS: Persons: Female ~ 25 to 34 years ~ High school graduate, GED, or alternative
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9055] Female: 25 to 34 years: High school graduate (includes equivalency)
+ 
+    Time series BT: Persons: Female ~ 25 to 34 years ~ Some college, no degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9056] Female: 25 to 34 years: Some college, no degree
+ 
+    Time series BU: Persons: Female ~ 25 to 34 years ~ Associate's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9057] Female: 25 to 34 years: Associate's degree
+ 
+    Time series BV: Persons: Female ~ 25 to 34 years ~ Bachelor's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9058] Female: 25 to 34 years: Bachelor's degree
+ 
+    Time series BW: Persons: Female ~ 25 to 34 years ~ Graduate or professional degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9059] Female: 25 to 34 years: Graduate or professional degree
+ 
+    Time series BX: Persons: Female ~ 35 to 44 years ~ Less than 9th grade
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9061] Female: 35 to 44 years: Less than 9th grade
+ 
+    Time series BY: Persons: Female ~ 35 to 44 years ~ 9th to 12th grade, no diploma
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9062] Female: 35 to 44 years: 9th to 12th grade, no diploma
+ 
+    Time series BZ: Persons: Female ~ 35 to 44 years ~ High school graduate, GED, or alternative
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9063] Female: 35 to 44 years: High school graduate (includes equivalency)
+ 
+    Time series CA: Persons: Female ~ 35 to 44 years ~ Some college, no degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9064] Female: 35 to 44 years: Some college, no degree
+ 
+    Time series CB: Persons: Female ~ 35 to 44 years ~ Associate's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9065] Female: 35 to 44 years: Associate's degree
+ 
+    Time series CC: Persons: Female ~ 35 to 44 years ~ Bachelor's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9066] Female: 35 to 44 years: Bachelor's degree
+ 
+    Time series CD: Persons: Female ~ 35 to 44 years ~ Graduate or professional degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9067] Female: 35 to 44 years: Graduate or professional degree
+ 
+    Time series CE: Persons: Female ~ 45 to 64 years ~ Less than 9th grade
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9069] Female: 45 to 64 years: Less than 9th grade
+ 
+    Time series CF: Persons: Female ~ 45 to 64 years ~ 9th to 12th grade, no diploma
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9070] Female: 45 to 64 years: 9th to 12th grade, no diploma
+ 
+    Time series CG: Persons: Female ~ 45 to 64 years ~ High school graduate, GED, or alternative
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9071] Female: 45 to 64 years: High school graduate (includes equivalency)
+ 
+    Time series CH: Persons: Female ~ 45 to 64 years ~ Some college, no degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9072] Female: 45 to 64 years: Some college, no degree
+ 
+    Time series CI: Persons: Female ~ 45 to 64 years ~ Associate's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9073] Female: 45 to 64 years: Associate's degree
+ 
+    Time series CJ: Persons: Female ~ 45 to 64 years ~ Bachelor's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9074] Female: 45 to 64 years: Bachelor's degree
+ 
+    Time series CK: Persons: Female ~ 45 to 64 years ~ Graduate or professional degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9075] Female: 45 to 64 years: Graduate or professional degree
+ 
+    Time series CL: Persons: Female ~ 65 years and over ~ Less than 9th grade
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9077] Female: 65 years and over: Less than 9th grade
+ 
+    Time series CM: Persons: Female ~ 65 years and over ~ 9th to 12th grade, no diploma
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9078] Female: 65 years and over: 9th to 12th grade, no diploma
+ 
+    Time series CN: Persons: Female ~ 65 years and over ~ High school graduate, GED, or alternative
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9079] Female: 65 years and over: High school graduate (includes equivalency)
+ 
+    Time series CO: Persons: Female ~ 65 years and over ~ Some college, no degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9080] Female: 65 years and over: Some college, no degree
+ 
+    Time series CP: Persons: Female ~ 65 years and over ~ Associate's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9081] Female: 65 years and over: Associate's degree
+ 
+    Time series CQ: Persons: Female ~ 65 years and over ~ Bachelor's degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9082] Female: 65 years and over: Bachelor's degree
+ 
+    Time series CR: Persons: Female ~ 65 years and over ~ Graduate or professional degree
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B15001. Sex by Age by Educational Attainment for the Population 18 Years and Over
+                Universe: Population 18 years and over
+                    Variable: [AKC9083] Female: 65 years and over: Graduate or professional degree
+ 
+ 
+Table 9: (B84) Persons 16 Years and Over by Labor Force and Employment Status [6]
+ 
+    Time series AA: Persons: 16 years and over ~ In labor force
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B23025. Employment Status for the Population 16 Years and Over
+                Universe: Population 16 years and over
+                    Variable: [AJ1C002] In labor force
+ 
+    Time series AB: Persons: 16 years and over ~ In labor force--In Armed Forces
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B23025. Employment Status for the Population 16 Years and Over
+                Universe: Population 16 years and over
+                    Variable: [AJ1C006] In labor force: Armed Forces
+ 
+    Time series AC: Persons: 16 years and over ~ In labor force--Civilian
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B23025. Employment Status for the Population 16 Years and Over
+                Universe: Population 16 years and over
+                    Variable: [AJ1C003] In labor force: Civilian labor force
+ 
+    Time series AD: Persons: 16 years and over ~ In labor force--Civilian--Employed
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B23025. Employment Status for the Population 16 Years and Over
+                Universe: Population 16 years and over
+                    Variable: [AJ1C004] In labor force: Civilian labor force: Employed
+ 
+    Time series AE: Persons: 16 years and over ~ In labor force--Civilian--Unemployed
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B23025. Employment Status for the Population 16 Years and Over
+                Universe: Population 16 years and over
+                    Variable: [AJ1C005] In labor force: Civilian labor force: Unemployed
+ 
+    Time series AF: Persons: 16 years and over ~ Not in labor force
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B23025. Employment Status for the Population 16 Years and Over
+                Universe: Population 16 years and over
+                    Variable: [AJ1C007] Not in labor force
+ 
+ 
+Table 10: (BS7) Households by Income* in Previous Year [4]
+ 
+    Time series AA: Households: Income less than $10,000
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B19001. Household Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+                Universe: Households
+                    Variable: [AJY9002] Less than $10,000
+ 
+    Time series AB: Households: Income $10,000 to $14,999
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B19001. Household Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+                Universe: Households
+                    Variable: [AJY9003] $10,000 to $14,999
+ 
+    Time series AC: Households: Income $15,000 to $24,999
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B19001. Household Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+                Universe: Households
+                    Variable: [AJY9004] $15,000 to $19,999
+                    Variable: [AJY9005] $20,000 to $24,999
+ 
+    Time series AD: Households: Income $25,000 or more
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B19001. Household Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+                Universe: Households
+                    Variable: [AJY9006] $25,000 to $29,999
+                    Variable: [AJY9007] $30,000 to $34,999
+                    Variable: [AJY9008] $35,000 to $39,999
+                    Variable: [AJY9009] $40,000 to $44,999
+                    Variable: [AJY9010] $45,000 to $49,999
+                    Variable: [AJY9011] $50,000 to $59,999
+                    Variable: [AJY9012] $60,000 to $74,999
+                    Variable: [AJY9013] $75,000 to $99,999
+                    Variable: [AJY9014] $100,000 to $124,999
+                    Variable: [AJY9015] $125,000 to $149,999
+                    Variable: [AJY9016] $150,000 to $199,999
+                    Variable: [AJY9017] $200,000 or more
+ 
+ 
+Table 11: (B79) Median Household Income in Previous Year
+ 
+    Time series AA: Median income in previous year: Households
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B19013. Median Household Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+                Universe: Households
+                    Variable: [AJZA001] Median household income in the past 12 months (in 2018 inflation-adjusted dollars)
+ 
+ 
+Table 12: (BD5) Per Capita Income in Previous Year
+ 
+    Time series AA: Per capita income in previous year
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+            Source table: B19301. Per Capita Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+                Universe: Total population
+                    Variable: [AJ0E001] Per capita income in the past 12 months (in 2018 inflation-adjusted dollars)
+ 
+ 
+Table 13: (CL6) Persons* below Poverty Level in Previous Year
+ 
+    Time series AA: Persons: Poverty status is determined ~ Income below poverty level
+        Source dataset: 2018 American Community Survey: 5-Year Data [2014-2018, Tracts & Larger Areas]
+            Source table: B17001. Poverty Status in the Past 12 Months by Sex by Age
+                Universe: Population for whom poverty status is determined
+                    Variable: [AKD1002] Income in the past 12 months below poverty level
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles.
+        IPUMS National Historical Geographic Information System: Version 18.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2023.
+        http://doi.org/10.18128/D050.V18.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455

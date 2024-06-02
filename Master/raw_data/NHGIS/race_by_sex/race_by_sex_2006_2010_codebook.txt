@@ -1,0 +1,667 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0009_ds177_20105_county'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2006-2010
+Geographic level: County (by State)
+Dataset:          2010 American Community Survey: 5-Year Data [2006-2010, Tracts & Larger Areas]
+   NHGIS code:    2006_2010_ACS5b
+   NHGIS ID:      ds177
+Breakdown(s):     Geographic Component:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Sex by Age (White Alone)
+   Universe:    People who are White alone
+   Source code: B01001A
+   NHGIS code:  JVO
+ 
+2. Sex by Age (Black or African American Alone)
+   Universe:    Black or African American alone
+   Source code: B01001B
+   NHGIS code:  JVP
+ 
+3. Sex by Age (American Indian and Alaska Native Alone)
+   Universe:    People who are American Indian and Alaska Native alone
+   Source code: B01001C
+   NHGIS code:  JVQ
+ 
+4. Sex by Age (Asian Alone)
+   Universe:    People who are Asian alone
+   Source code: B01001D
+   NHGIS code:  JVR
+ 
+5. Sex by Age (Native Hawaiian and Other Pacific Islander Alone)
+   Universe:    People who are Native Hawaiian and Other Pacific Islander alone
+   Source code: B01001E
+   NHGIS code:  JVS
+ 
+6. Sex by Age (Some Other Race Alone)
+   Universe:    People who are Some Other Race alone
+   Source code: B01001F
+   NHGIS code:  JVT
+ 
+7. Sex by Age (Two or More Races)
+   Universe:    People who are Two or More Races
+   Source code: B01001G
+   NHGIS code:  JVU
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State Postal Abbreviation
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIHHTLI:     American Indian Trust Land/ Hawaiian Home Land Indicator
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (111th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PCI:         Principal City Indicator
+        PUMAA:       Public Use Microdata Area Code
+        GEOID:       Geographic Identifier
+        BTTRA:       Tribal Census Tract Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Sex by Age (White Alone)
+    Universe:    People who are White alone
+    Source code: B01001A
+    NHGIS code:  JVO
+        JVOE001:     Total
+        JVOE002:     Male
+        JVOE003:     Male: Under 5 years
+        JVOE004:     Male: 5 to 9 years
+        JVOE005:     Male: 10 to 14 years
+        JVOE006:     Male: 15 to 17 years
+        JVOE007:     Male: 18 and 19 years
+        JVOE008:     Male: 20 to 24 years
+        JVOE009:     Male: 25 to 29 years
+        JVOE010:     Male: 30 to 34 years
+        JVOE011:     Male: 35 to 44 years
+        JVOE012:     Male: 45 to 54 years
+        JVOE013:     Male: 55 to 64 years
+        JVOE014:     Male: 65 to 74 years
+        JVOE015:     Male: 75 to 84 years
+        JVOE016:     Male: 85 years and over
+        JVOE017:     Female
+        JVOE018:     Female: Under 5 years
+        JVOE019:     Female: 5 to 9 years
+        JVOE020:     Female: 10 to 14 years
+        JVOE021:     Female: 15 to 17 years
+        JVOE022:     Female: 18 and 19 years
+        JVOE023:     Female: 20 to 24 years
+        JVOE024:     Female: 25 to 29 years
+        JVOE025:     Female: 30 to 34 years
+        JVOE026:     Female: 35 to 44 years
+        JVOE027:     Female: 45 to 54 years
+        JVOE028:     Female: 55 to 64 years
+        JVOE029:     Female: 65 to 74 years
+        JVOE030:     Female: 75 to 84 years
+        JVOE031:     Female: 85 years and over
+ 
+    Table 2:     Sex by Age (Black or African American Alone)
+    Universe:    Black or African American alone
+    Source code: B01001B
+    NHGIS code:  JVP
+        JVPE001:     Total
+        JVPE002:     Male
+        JVPE003:     Male: Under 5 years
+        JVPE004:     Male: 5 to 9 years
+        JVPE005:     Male: 10 to 14 years
+        JVPE006:     Male: 15 to 17 years
+        JVPE007:     Male: 18 and 19 years
+        JVPE008:     Male: 20 to 24 years
+        JVPE009:     Male: 25 to 29 years
+        JVPE010:     Male: 30 to 34 years
+        JVPE011:     Male: 35 to 44 years
+        JVPE012:     Male: 45 to 54 years
+        JVPE013:     Male: 55 to 64 years
+        JVPE014:     Male: 65 to 74 years
+        JVPE015:     Male: 75 to 84 years
+        JVPE016:     Male: 85 years and over
+        JVPE017:     Female
+        JVPE018:     Female: Under 5 years
+        JVPE019:     Female: 5 to 9 years
+        JVPE020:     Female: 10 to 14 years
+        JVPE021:     Female: 15 to 17 years
+        JVPE022:     Female: 18 and 19 years
+        JVPE023:     Female: 20 to 24 years
+        JVPE024:     Female: 25 to 29 years
+        JVPE025:     Female: 30 to 34 years
+        JVPE026:     Female: 35 to 44 years
+        JVPE027:     Female: 45 to 54 years
+        JVPE028:     Female: 55 to 64 years
+        JVPE029:     Female: 65 to 74 years
+        JVPE030:     Female: 75 to 84 years
+        JVPE031:     Female: 85 years and over
+ 
+    Table 3:     Sex by Age (American Indian and Alaska Native Alone)
+    Universe:    People who are American Indian and Alaska Native alone
+    Source code: B01001C
+    NHGIS code:  JVQ
+        JVQE001:     Total
+        JVQE002:     Male
+        JVQE003:     Male: Under 5 years
+        JVQE004:     Male: 5 to 9 years
+        JVQE005:     Male: 10 to 14 years
+        JVQE006:     Male: 15 to 17 years
+        JVQE007:     Male: 18 and 19 years
+        JVQE008:     Male: 20 to 24 years
+        JVQE009:     Male: 25 to 29 years
+        JVQE010:     Male: 30 to 34 years
+        JVQE011:     Male: 35 to 44 years
+        JVQE012:     Male: 45 to 54 years
+        JVQE013:     Male: 55 to 64 years
+        JVQE014:     Male: 65 to 74 years
+        JVQE015:     Male: 75 to 84 years
+        JVQE016:     Male: 85 years and over
+        JVQE017:     Female
+        JVQE018:     Female: Under 5 years
+        JVQE019:     Female: 5 to 9 years
+        JVQE020:     Female: 10 to 14 years
+        JVQE021:     Female: 15 to 17 years
+        JVQE022:     Female: 18 and 19 years
+        JVQE023:     Female: 20 to 24 years
+        JVQE024:     Female: 25 to 29 years
+        JVQE025:     Female: 30 to 34 years
+        JVQE026:     Female: 35 to 44 years
+        JVQE027:     Female: 45 to 54 years
+        JVQE028:     Female: 55 to 64 years
+        JVQE029:     Female: 65 to 74 years
+        JVQE030:     Female: 75 to 84 years
+        JVQE031:     Female: 85 years and over
+ 
+    Table 4:     Sex by Age (Asian Alone)
+    Universe:    People who are Asian alone
+    Source code: B01001D
+    NHGIS code:  JVR
+        JVRE001:     Total
+        JVRE002:     Male
+        JVRE003:     Male: Under 5 years
+        JVRE004:     Male: 5 to 9 years
+        JVRE005:     Male: 10 to 14 years
+        JVRE006:     Male: 15 to 17 years
+        JVRE007:     Male: 18 and 19 years
+        JVRE008:     Male: 20 to 24 years
+        JVRE009:     Male: 25 to 29 years
+        JVRE010:     Male: 30 to 34 years
+        JVRE011:     Male: 35 to 44 years
+        JVRE012:     Male: 45 to 54 years
+        JVRE013:     Male: 55 to 64 years
+        JVRE014:     Male: 65 to 74 years
+        JVRE015:     Male: 75 to 84 years
+        JVRE016:     Male: 85 years and over
+        JVRE017:     Female
+        JVRE018:     Female: Under 5 years
+        JVRE019:     Female: 5 to 9 years
+        JVRE020:     Female: 10 to 14 years
+        JVRE021:     Female: 15 to 17 years
+        JVRE022:     Female: 18 and 19 years
+        JVRE023:     Female: 20 to 24 years
+        JVRE024:     Female: 25 to 29 years
+        JVRE025:     Female: 30 to 34 years
+        JVRE026:     Female: 35 to 44 years
+        JVRE027:     Female: 45 to 54 years
+        JVRE028:     Female: 55 to 64 years
+        JVRE029:     Female: 65 to 74 years
+        JVRE030:     Female: 75 to 84 years
+        JVRE031:     Female: 85 years and over
+ 
+    Table 5:     Sex by Age (Native Hawaiian and Other Pacific Islander Alone)
+    Universe:    People who are Native Hawaiian and Other Pacific Islander alone
+    Source code: B01001E
+    NHGIS code:  JVS
+        JVSE001:     Total
+        JVSE002:     Male
+        JVSE003:     Male: Under 5 years
+        JVSE004:     Male: 5 to 9 years
+        JVSE005:     Male: 10 to 14 years
+        JVSE006:     Male: 15 to 17 years
+        JVSE007:     Male: 18 and 19 years
+        JVSE008:     Male: 20 to 24 years
+        JVSE009:     Male: 25 to 29 years
+        JVSE010:     Male: 30 to 34 years
+        JVSE011:     Male: 35 to 44 years
+        JVSE012:     Male: 45 to 54 years
+        JVSE013:     Male: 55 to 64 years
+        JVSE014:     Male: 65 to 74 years
+        JVSE015:     Male: 75 to 84 years
+        JVSE016:     Male: 85 years and over
+        JVSE017:     Female
+        JVSE018:     Female: Under 5 years
+        JVSE019:     Female: 5 to 9 years
+        JVSE020:     Female: 10 to 14 years
+        JVSE021:     Female: 15 to 17 years
+        JVSE022:     Female: 18 and 19 years
+        JVSE023:     Female: 20 to 24 years
+        JVSE024:     Female: 25 to 29 years
+        JVSE025:     Female: 30 to 34 years
+        JVSE026:     Female: 35 to 44 years
+        JVSE027:     Female: 45 to 54 years
+        JVSE028:     Female: 55 to 64 years
+        JVSE029:     Female: 65 to 74 years
+        JVSE030:     Female: 75 to 84 years
+        JVSE031:     Female: 85 years and over
+ 
+    Table 6:     Sex by Age (Some Other Race Alone)
+    Universe:    People who are Some Other Race alone
+    Source code: B01001F
+    NHGIS code:  JVT
+        JVTE001:     Total
+        JVTE002:     Male
+        JVTE003:     Male: Under 5 years
+        JVTE004:     Male: 5 to 9 years
+        JVTE005:     Male: 10 to 14 years
+        JVTE006:     Male: 15 to 17 years
+        JVTE007:     Male: 18 and 19 years
+        JVTE008:     Male: 20 to 24 years
+        JVTE009:     Male: 25 to 29 years
+        JVTE010:     Male: 30 to 34 years
+        JVTE011:     Male: 35 to 44 years
+        JVTE012:     Male: 45 to 54 years
+        JVTE013:     Male: 55 to 64 years
+        JVTE014:     Male: 65 to 74 years
+        JVTE015:     Male: 75 to 84 years
+        JVTE016:     Male: 85 years and over
+        JVTE017:     Female
+        JVTE018:     Female: Under 5 years
+        JVTE019:     Female: 5 to 9 years
+        JVTE020:     Female: 10 to 14 years
+        JVTE021:     Female: 15 to 17 years
+        JVTE022:     Female: 18 and 19 years
+        JVTE023:     Female: 20 to 24 years
+        JVTE024:     Female: 25 to 29 years
+        JVTE025:     Female: 30 to 34 years
+        JVTE026:     Female: 35 to 44 years
+        JVTE027:     Female: 45 to 54 years
+        JVTE028:     Female: 55 to 64 years
+        JVTE029:     Female: 65 to 74 years
+        JVTE030:     Female: 75 to 84 years
+        JVTE031:     Female: 85 years and over
+ 
+    Table 7:     Sex by Age (Two or More Races)
+    Universe:    People who are Two or More Races
+    Source code: B01001G
+    NHGIS code:  JVU
+        JVUE001:     Total
+        JVUE002:     Male
+        JVUE003:     Male: Under 5 years
+        JVUE004:     Male: 5 to 9 years
+        JVUE005:     Male: 10 to 14 years
+        JVUE006:     Male: 15 to 17 years
+        JVUE007:     Male: 18 and 19 years
+        JVUE008:     Male: 20 to 24 years
+        JVUE009:     Male: 25 to 29 years
+        JVUE010:     Male: 30 to 34 years
+        JVUE011:     Male: 35 to 44 years
+        JVUE012:     Male: 45 to 54 years
+        JVUE013:     Male: 55 to 64 years
+        JVUE014:     Male: 65 to 74 years
+        JVUE015:     Male: 75 to 84 years
+        JVUE016:     Male: 85 years and over
+        JVUE017:     Female
+        JVUE018:     Female: Under 5 years
+        JVUE019:     Female: 5 to 9 years
+        JVUE020:     Female: 10 to 14 years
+        JVUE021:     Female: 15 to 17 years
+        JVUE022:     Female: 18 and 19 years
+        JVUE023:     Female: 20 to 24 years
+        JVUE024:     Female: 25 to 29 years
+        JVUE025:     Female: 30 to 34 years
+        JVUE026:     Female: 35 to 44 years
+        JVUE027:     Female: 45 to 54 years
+        JVUE028:     Female: 55 to 64 years
+        JVUE029:     Female: 65 to 74 years
+        JVUE030:     Female: 75 to 84 years
+        JVUE031:     Female: 85 years and over
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Sex by Age (White Alone)
+    Universe:    People who are White alone
+    Source code: B01001A
+    NHGIS code:  JVO
+        JVOM001:     Total
+        JVOM002:     Male
+        JVOM003:     Male: Under 5 years
+        JVOM004:     Male: 5 to 9 years
+        JVOM005:     Male: 10 to 14 years
+        JVOM006:     Male: 15 to 17 years
+        JVOM007:     Male: 18 and 19 years
+        JVOM008:     Male: 20 to 24 years
+        JVOM009:     Male: 25 to 29 years
+        JVOM010:     Male: 30 to 34 years
+        JVOM011:     Male: 35 to 44 years
+        JVOM012:     Male: 45 to 54 years
+        JVOM013:     Male: 55 to 64 years
+        JVOM014:     Male: 65 to 74 years
+        JVOM015:     Male: 75 to 84 years
+        JVOM016:     Male: 85 years and over
+        JVOM017:     Female
+        JVOM018:     Female: Under 5 years
+        JVOM019:     Female: 5 to 9 years
+        JVOM020:     Female: 10 to 14 years
+        JVOM021:     Female: 15 to 17 years
+        JVOM022:     Female: 18 and 19 years
+        JVOM023:     Female: 20 to 24 years
+        JVOM024:     Female: 25 to 29 years
+        JVOM025:     Female: 30 to 34 years
+        JVOM026:     Female: 35 to 44 years
+        JVOM027:     Female: 45 to 54 years
+        JVOM028:     Female: 55 to 64 years
+        JVOM029:     Female: 65 to 74 years
+        JVOM030:     Female: 75 to 84 years
+        JVOM031:     Female: 85 years and over
+ 
+    Table 2:     Sex by Age (Black or African American Alone)
+    Universe:    Black or African American alone
+    Source code: B01001B
+    NHGIS code:  JVP
+        JVPM001:     Total
+        JVPM002:     Male
+        JVPM003:     Male: Under 5 years
+        JVPM004:     Male: 5 to 9 years
+        JVPM005:     Male: 10 to 14 years
+        JVPM006:     Male: 15 to 17 years
+        JVPM007:     Male: 18 and 19 years
+        JVPM008:     Male: 20 to 24 years
+        JVPM009:     Male: 25 to 29 years
+        JVPM010:     Male: 30 to 34 years
+        JVPM011:     Male: 35 to 44 years
+        JVPM012:     Male: 45 to 54 years
+        JVPM013:     Male: 55 to 64 years
+        JVPM014:     Male: 65 to 74 years
+        JVPM015:     Male: 75 to 84 years
+        JVPM016:     Male: 85 years and over
+        JVPM017:     Female
+        JVPM018:     Female: Under 5 years
+        JVPM019:     Female: 5 to 9 years
+        JVPM020:     Female: 10 to 14 years
+        JVPM021:     Female: 15 to 17 years
+        JVPM022:     Female: 18 and 19 years
+        JVPM023:     Female: 20 to 24 years
+        JVPM024:     Female: 25 to 29 years
+        JVPM025:     Female: 30 to 34 years
+        JVPM026:     Female: 35 to 44 years
+        JVPM027:     Female: 45 to 54 years
+        JVPM028:     Female: 55 to 64 years
+        JVPM029:     Female: 65 to 74 years
+        JVPM030:     Female: 75 to 84 years
+        JVPM031:     Female: 85 years and over
+ 
+    Table 3:     Sex by Age (American Indian and Alaska Native Alone)
+    Universe:    People who are American Indian and Alaska Native alone
+    Source code: B01001C
+    NHGIS code:  JVQ
+        JVQM001:     Total
+        JVQM002:     Male
+        JVQM003:     Male: Under 5 years
+        JVQM004:     Male: 5 to 9 years
+        JVQM005:     Male: 10 to 14 years
+        JVQM006:     Male: 15 to 17 years
+        JVQM007:     Male: 18 and 19 years
+        JVQM008:     Male: 20 to 24 years
+        JVQM009:     Male: 25 to 29 years
+        JVQM010:     Male: 30 to 34 years
+        JVQM011:     Male: 35 to 44 years
+        JVQM012:     Male: 45 to 54 years
+        JVQM013:     Male: 55 to 64 years
+        JVQM014:     Male: 65 to 74 years
+        JVQM015:     Male: 75 to 84 years
+        JVQM016:     Male: 85 years and over
+        JVQM017:     Female
+        JVQM018:     Female: Under 5 years
+        JVQM019:     Female: 5 to 9 years
+        JVQM020:     Female: 10 to 14 years
+        JVQM021:     Female: 15 to 17 years
+        JVQM022:     Female: 18 and 19 years
+        JVQM023:     Female: 20 to 24 years
+        JVQM024:     Female: 25 to 29 years
+        JVQM025:     Female: 30 to 34 years
+        JVQM026:     Female: 35 to 44 years
+        JVQM027:     Female: 45 to 54 years
+        JVQM028:     Female: 55 to 64 years
+        JVQM029:     Female: 65 to 74 years
+        JVQM030:     Female: 75 to 84 years
+        JVQM031:     Female: 85 years and over
+ 
+    Table 4:     Sex by Age (Asian Alone)
+    Universe:    People who are Asian alone
+    Source code: B01001D
+    NHGIS code:  JVR
+        JVRM001:     Total
+        JVRM002:     Male
+        JVRM003:     Male: Under 5 years
+        JVRM004:     Male: 5 to 9 years
+        JVRM005:     Male: 10 to 14 years
+        JVRM006:     Male: 15 to 17 years
+        JVRM007:     Male: 18 and 19 years
+        JVRM008:     Male: 20 to 24 years
+        JVRM009:     Male: 25 to 29 years
+        JVRM010:     Male: 30 to 34 years
+        JVRM011:     Male: 35 to 44 years
+        JVRM012:     Male: 45 to 54 years
+        JVRM013:     Male: 55 to 64 years
+        JVRM014:     Male: 65 to 74 years
+        JVRM015:     Male: 75 to 84 years
+        JVRM016:     Male: 85 years and over
+        JVRM017:     Female
+        JVRM018:     Female: Under 5 years
+        JVRM019:     Female: 5 to 9 years
+        JVRM020:     Female: 10 to 14 years
+        JVRM021:     Female: 15 to 17 years
+        JVRM022:     Female: 18 and 19 years
+        JVRM023:     Female: 20 to 24 years
+        JVRM024:     Female: 25 to 29 years
+        JVRM025:     Female: 30 to 34 years
+        JVRM026:     Female: 35 to 44 years
+        JVRM027:     Female: 45 to 54 years
+        JVRM028:     Female: 55 to 64 years
+        JVRM029:     Female: 65 to 74 years
+        JVRM030:     Female: 75 to 84 years
+        JVRM031:     Female: 85 years and over
+ 
+    Table 5:     Sex by Age (Native Hawaiian and Other Pacific Islander Alone)
+    Universe:    People who are Native Hawaiian and Other Pacific Islander alone
+    Source code: B01001E
+    NHGIS code:  JVS
+        JVSM001:     Total
+        JVSM002:     Male
+        JVSM003:     Male: Under 5 years
+        JVSM004:     Male: 5 to 9 years
+        JVSM005:     Male: 10 to 14 years
+        JVSM006:     Male: 15 to 17 years
+        JVSM007:     Male: 18 and 19 years
+        JVSM008:     Male: 20 to 24 years
+        JVSM009:     Male: 25 to 29 years
+        JVSM010:     Male: 30 to 34 years
+        JVSM011:     Male: 35 to 44 years
+        JVSM012:     Male: 45 to 54 years
+        JVSM013:     Male: 55 to 64 years
+        JVSM014:     Male: 65 to 74 years
+        JVSM015:     Male: 75 to 84 years
+        JVSM016:     Male: 85 years and over
+        JVSM017:     Female
+        JVSM018:     Female: Under 5 years
+        JVSM019:     Female: 5 to 9 years
+        JVSM020:     Female: 10 to 14 years
+        JVSM021:     Female: 15 to 17 years
+        JVSM022:     Female: 18 and 19 years
+        JVSM023:     Female: 20 to 24 years
+        JVSM024:     Female: 25 to 29 years
+        JVSM025:     Female: 30 to 34 years
+        JVSM026:     Female: 35 to 44 years
+        JVSM027:     Female: 45 to 54 years
+        JVSM028:     Female: 55 to 64 years
+        JVSM029:     Female: 65 to 74 years
+        JVSM030:     Female: 75 to 84 years
+        JVSM031:     Female: 85 years and over
+ 
+    Table 6:     Sex by Age (Some Other Race Alone)
+    Universe:    People who are Some Other Race alone
+    Source code: B01001F
+    NHGIS code:  JVT
+        JVTM001:     Total
+        JVTM002:     Male
+        JVTM003:     Male: Under 5 years
+        JVTM004:     Male: 5 to 9 years
+        JVTM005:     Male: 10 to 14 years
+        JVTM006:     Male: 15 to 17 years
+        JVTM007:     Male: 18 and 19 years
+        JVTM008:     Male: 20 to 24 years
+        JVTM009:     Male: 25 to 29 years
+        JVTM010:     Male: 30 to 34 years
+        JVTM011:     Male: 35 to 44 years
+        JVTM012:     Male: 45 to 54 years
+        JVTM013:     Male: 55 to 64 years
+        JVTM014:     Male: 65 to 74 years
+        JVTM015:     Male: 75 to 84 years
+        JVTM016:     Male: 85 years and over
+        JVTM017:     Female
+        JVTM018:     Female: Under 5 years
+        JVTM019:     Female: 5 to 9 years
+        JVTM020:     Female: 10 to 14 years
+        JVTM021:     Female: 15 to 17 years
+        JVTM022:     Female: 18 and 19 years
+        JVTM023:     Female: 20 to 24 years
+        JVTM024:     Female: 25 to 29 years
+        JVTM025:     Female: 30 to 34 years
+        JVTM026:     Female: 35 to 44 years
+        JVTM027:     Female: 45 to 54 years
+        JVTM028:     Female: 55 to 64 years
+        JVTM029:     Female: 65 to 74 years
+        JVTM030:     Female: 75 to 84 years
+        JVTM031:     Female: 85 years and over
+ 
+    Table 7:     Sex by Age (Two or More Races)
+    Universe:    People who are Two or More Races
+    Source code: B01001G
+    NHGIS code:  JVU
+        JVUM001:     Total
+        JVUM002:     Male
+        JVUM003:     Male: Under 5 years
+        JVUM004:     Male: 5 to 9 years
+        JVUM005:     Male: 10 to 14 years
+        JVUM006:     Male: 15 to 17 years
+        JVUM007:     Male: 18 and 19 years
+        JVUM008:     Male: 20 to 24 years
+        JVUM009:     Male: 25 to 29 years
+        JVUM010:     Male: 30 to 34 years
+        JVUM011:     Male: 35 to 44 years
+        JVUM012:     Male: 45 to 54 years
+        JVUM013:     Male: 55 to 64 years
+        JVUM014:     Male: 65 to 74 years
+        JVUM015:     Male: 75 to 84 years
+        JVUM016:     Male: 85 years and over
+        JVUM017:     Female
+        JVUM018:     Female: Under 5 years
+        JVUM019:     Female: 5 to 9 years
+        JVUM020:     Female: 10 to 14 years
+        JVUM021:     Female: 15 to 17 years
+        JVUM022:     Female: 18 and 19 years
+        JVUM023:     Female: 20 to 24 years
+        JVUM024:     Female: 25 to 29 years
+        JVUM025:     Female: 30 to 34 years
+        JVUM026:     Female: 35 to 44 years
+        JVUM027:     Female: 45 to 54 years
+        JVUM028:     Female: 55 to 64 years
+        JVUM029:     Female: 65 to 74 years
+        JVUM030:     Female: 75 to 84 years
+        JVUM031:     Female: 85 years and over
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles.
+        IPUMS National Historical Geographic Information System: Version 18.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2023.
+        http://doi.org/10.18128/D050.V18.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455

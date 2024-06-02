@@ -1,0 +1,671 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0009_ds263_20225_county'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2018-2022
+Geographic level: County (by State)
+Dataset:          2022 American Community Survey: 5-Year Data [2018-2022, Tracts & Larger Areas]
+   NHGIS code:    2018_2022_ACS5b
+   NHGIS ID:      ds263
+Breakdown(s):     Geographic Component:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Sex by Age (White Alone)
+   Universe:    People who are White alone
+   Source code: B01001A
+   NHGIS code:  AQYH
+ 
+2. Sex by Age (Black or African American Alone)
+   Universe:    People who are Black or African American alone
+   Source code: B01001B
+   NHGIS code:  AQYI
+ 
+3. Sex by Age (American Indian and Alaska Native Alone)
+   Universe:    People who are American Indian and Alaska Native alone
+   Source code: B01001C
+   NHGIS code:  AQYJ
+ 
+4. Sex by Age (Asian Alone)
+   Universe:    People who are Asian alone
+   Source code: B01001D
+   NHGIS code:  AQYK
+ 
+5. Sex by Age (Native Hawaiian and Other Pacific Islander Alone)
+   Universe:    People who are Native Hawaiian and Other Pacific Islander alone
+   Source code: B01001E
+   NHGIS code:  AQYL
+ 
+6. Sex by Age (Some Other Race Alone)
+   Universe:    People who are Some Other Race alone
+   Source code: B01001F
+   NHGIS code:  AQYM
+ 
+7. Sex by Age (Two or More Races)
+   Universe:    People who are Two or More Races
+   Source code: B01001G
+   NHGIS code:  AQYN
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State/US-Abbreviation (USPS)
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLKGRP:      Block Group
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIHHTLI:     American Indian/Hawaiian Home Land Trust Land Indicator
+        AITSA:       Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2023-2025, 118th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PCI:         Metropolitan/Micropolitan Principal City Indicator
+        PUMAA:       Public Use Microdata Area Code
+        GEO_ID:      Census Geographic Area Identifier
+        BTTRA:       Tribal Census Tract Code
+        BTBG:        Tribal Block Group
+        TL_GEO_ID:   TIGER/Line Shapefile Geographic Area Identifier
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Geographic Area Full Name
+ 
+    Table 1:     Sex by Age (White Alone)
+    Universe:    People who are White alone
+    Source code: B01001A
+    NHGIS code:  AQYH
+        AQYHE001:    Total
+        AQYHE002:    Male
+        AQYHE003:    Male: Under 5 years
+        AQYHE004:    Male: 5 to 9 years
+        AQYHE005:    Male: 10 to 14 years
+        AQYHE006:    Male: 15 to 17 years
+        AQYHE007:    Male: 18 and 19 years
+        AQYHE008:    Male: 20 to 24 years
+        AQYHE009:    Male: 25 to 29 years
+        AQYHE010:    Male: 30 to 34 years
+        AQYHE011:    Male: 35 to 44 years
+        AQYHE012:    Male: 45 to 54 years
+        AQYHE013:    Male: 55 to 64 years
+        AQYHE014:    Male: 65 to 74 years
+        AQYHE015:    Male: 75 to 84 years
+        AQYHE016:    Male: 85 years and over
+        AQYHE017:    Female
+        AQYHE018:    Female: Under 5 years
+        AQYHE019:    Female: 5 to 9 years
+        AQYHE020:    Female: 10 to 14 years
+        AQYHE021:    Female: 15 to 17 years
+        AQYHE022:    Female: 18 and 19 years
+        AQYHE023:    Female: 20 to 24 years
+        AQYHE024:    Female: 25 to 29 years
+        AQYHE025:    Female: 30 to 34 years
+        AQYHE026:    Female: 35 to 44 years
+        AQYHE027:    Female: 45 to 54 years
+        AQYHE028:    Female: 55 to 64 years
+        AQYHE029:    Female: 65 to 74 years
+        AQYHE030:    Female: 75 to 84 years
+        AQYHE031:    Female: 85 years and over
+ 
+    Table 2:     Sex by Age (Black or African American Alone)
+    Universe:    People who are Black or African American alone
+    Source code: B01001B
+    NHGIS code:  AQYI
+        AQYIE001:    Total
+        AQYIE002:    Male
+        AQYIE003:    Male: Under 5 years
+        AQYIE004:    Male: 5 to 9 years
+        AQYIE005:    Male: 10 to 14 years
+        AQYIE006:    Male: 15 to 17 years
+        AQYIE007:    Male: 18 and 19 years
+        AQYIE008:    Male: 20 to 24 years
+        AQYIE009:    Male: 25 to 29 years
+        AQYIE010:    Male: 30 to 34 years
+        AQYIE011:    Male: 35 to 44 years
+        AQYIE012:    Male: 45 to 54 years
+        AQYIE013:    Male: 55 to 64 years
+        AQYIE014:    Male: 65 to 74 years
+        AQYIE015:    Male: 75 to 84 years
+        AQYIE016:    Male: 85 years and over
+        AQYIE017:    Female
+        AQYIE018:    Female: Under 5 years
+        AQYIE019:    Female: 5 to 9 years
+        AQYIE020:    Female: 10 to 14 years
+        AQYIE021:    Female: 15 to 17 years
+        AQYIE022:    Female: 18 and 19 years
+        AQYIE023:    Female: 20 to 24 years
+        AQYIE024:    Female: 25 to 29 years
+        AQYIE025:    Female: 30 to 34 years
+        AQYIE026:    Female: 35 to 44 years
+        AQYIE027:    Female: 45 to 54 years
+        AQYIE028:    Female: 55 to 64 years
+        AQYIE029:    Female: 65 to 74 years
+        AQYIE030:    Female: 75 to 84 years
+        AQYIE031:    Female: 85 years and over
+ 
+    Table 3:     Sex by Age (American Indian and Alaska Native Alone)
+    Universe:    People who are American Indian and Alaska Native alone
+    Source code: B01001C
+    NHGIS code:  AQYJ
+        AQYJE001:    Total
+        AQYJE002:    Male
+        AQYJE003:    Male: Under 5 years
+        AQYJE004:    Male: 5 to 9 years
+        AQYJE005:    Male: 10 to 14 years
+        AQYJE006:    Male: 15 to 17 years
+        AQYJE007:    Male: 18 and 19 years
+        AQYJE008:    Male: 20 to 24 years
+        AQYJE009:    Male: 25 to 29 years
+        AQYJE010:    Male: 30 to 34 years
+        AQYJE011:    Male: 35 to 44 years
+        AQYJE012:    Male: 45 to 54 years
+        AQYJE013:    Male: 55 to 64 years
+        AQYJE014:    Male: 65 to 74 years
+        AQYJE015:    Male: 75 to 84 years
+        AQYJE016:    Male: 85 years and over
+        AQYJE017:    Female
+        AQYJE018:    Female: Under 5 years
+        AQYJE019:    Female: 5 to 9 years
+        AQYJE020:    Female: 10 to 14 years
+        AQYJE021:    Female: 15 to 17 years
+        AQYJE022:    Female: 18 and 19 years
+        AQYJE023:    Female: 20 to 24 years
+        AQYJE024:    Female: 25 to 29 years
+        AQYJE025:    Female: 30 to 34 years
+        AQYJE026:    Female: 35 to 44 years
+        AQYJE027:    Female: 45 to 54 years
+        AQYJE028:    Female: 55 to 64 years
+        AQYJE029:    Female: 65 to 74 years
+        AQYJE030:    Female: 75 to 84 years
+        AQYJE031:    Female: 85 years and over
+ 
+    Table 4:     Sex by Age (Asian Alone)
+    Universe:    People who are Asian alone
+    Source code: B01001D
+    NHGIS code:  AQYK
+        AQYKE001:    Total
+        AQYKE002:    Male
+        AQYKE003:    Male: Under 5 years
+        AQYKE004:    Male: 5 to 9 years
+        AQYKE005:    Male: 10 to 14 years
+        AQYKE006:    Male: 15 to 17 years
+        AQYKE007:    Male: 18 and 19 years
+        AQYKE008:    Male: 20 to 24 years
+        AQYKE009:    Male: 25 to 29 years
+        AQYKE010:    Male: 30 to 34 years
+        AQYKE011:    Male: 35 to 44 years
+        AQYKE012:    Male: 45 to 54 years
+        AQYKE013:    Male: 55 to 64 years
+        AQYKE014:    Male: 65 to 74 years
+        AQYKE015:    Male: 75 to 84 years
+        AQYKE016:    Male: 85 years and over
+        AQYKE017:    Female
+        AQYKE018:    Female: Under 5 years
+        AQYKE019:    Female: 5 to 9 years
+        AQYKE020:    Female: 10 to 14 years
+        AQYKE021:    Female: 15 to 17 years
+        AQYKE022:    Female: 18 and 19 years
+        AQYKE023:    Female: 20 to 24 years
+        AQYKE024:    Female: 25 to 29 years
+        AQYKE025:    Female: 30 to 34 years
+        AQYKE026:    Female: 35 to 44 years
+        AQYKE027:    Female: 45 to 54 years
+        AQYKE028:    Female: 55 to 64 years
+        AQYKE029:    Female: 65 to 74 years
+        AQYKE030:    Female: 75 to 84 years
+        AQYKE031:    Female: 85 years and over
+ 
+    Table 5:     Sex by Age (Native Hawaiian and Other Pacific Islander Alone)
+    Universe:    People who are Native Hawaiian and Other Pacific Islander alone
+    Source code: B01001E
+    NHGIS code:  AQYL
+        AQYLE001:    Total
+        AQYLE002:    Male
+        AQYLE003:    Male: Under 5 years
+        AQYLE004:    Male: 5 to 9 years
+        AQYLE005:    Male: 10 to 14 years
+        AQYLE006:    Male: 15 to 17 years
+        AQYLE007:    Male: 18 and 19 years
+        AQYLE008:    Male: 20 to 24 years
+        AQYLE009:    Male: 25 to 29 years
+        AQYLE010:    Male: 30 to 34 years
+        AQYLE011:    Male: 35 to 44 years
+        AQYLE012:    Male: 45 to 54 years
+        AQYLE013:    Male: 55 to 64 years
+        AQYLE014:    Male: 65 to 74 years
+        AQYLE015:    Male: 75 to 84 years
+        AQYLE016:    Male: 85 years and over
+        AQYLE017:    Female
+        AQYLE018:    Female: Under 5 years
+        AQYLE019:    Female: 5 to 9 years
+        AQYLE020:    Female: 10 to 14 years
+        AQYLE021:    Female: 15 to 17 years
+        AQYLE022:    Female: 18 and 19 years
+        AQYLE023:    Female: 20 to 24 years
+        AQYLE024:    Female: 25 to 29 years
+        AQYLE025:    Female: 30 to 34 years
+        AQYLE026:    Female: 35 to 44 years
+        AQYLE027:    Female: 45 to 54 years
+        AQYLE028:    Female: 55 to 64 years
+        AQYLE029:    Female: 65 to 74 years
+        AQYLE030:    Female: 75 to 84 years
+        AQYLE031:    Female: 85 years and over
+ 
+    Table 6:     Sex by Age (Some Other Race Alone)
+    Universe:    People who are Some Other Race alone
+    Source code: B01001F
+    NHGIS code:  AQYM
+        AQYME001:    Total
+        AQYME002:    Male
+        AQYME003:    Male: Under 5 years
+        AQYME004:    Male: 5 to 9 years
+        AQYME005:    Male: 10 to 14 years
+        AQYME006:    Male: 15 to 17 years
+        AQYME007:    Male: 18 and 19 years
+        AQYME008:    Male: 20 to 24 years
+        AQYME009:    Male: 25 to 29 years
+        AQYME010:    Male: 30 to 34 years
+        AQYME011:    Male: 35 to 44 years
+        AQYME012:    Male: 45 to 54 years
+        AQYME013:    Male: 55 to 64 years
+        AQYME014:    Male: 65 to 74 years
+        AQYME015:    Male: 75 to 84 years
+        AQYME016:    Male: 85 years and over
+        AQYME017:    Female
+        AQYME018:    Female: Under 5 years
+        AQYME019:    Female: 5 to 9 years
+        AQYME020:    Female: 10 to 14 years
+        AQYME021:    Female: 15 to 17 years
+        AQYME022:    Female: 18 and 19 years
+        AQYME023:    Female: 20 to 24 years
+        AQYME024:    Female: 25 to 29 years
+        AQYME025:    Female: 30 to 34 years
+        AQYME026:    Female: 35 to 44 years
+        AQYME027:    Female: 45 to 54 years
+        AQYME028:    Female: 55 to 64 years
+        AQYME029:    Female: 65 to 74 years
+        AQYME030:    Female: 75 to 84 years
+        AQYME031:    Female: 85 years and over
+ 
+    Table 7:     Sex by Age (Two or More Races)
+    Universe:    People who are Two or More Races
+    Source code: B01001G
+    NHGIS code:  AQYN
+        AQYNE001:    Total
+        AQYNE002:    Male
+        AQYNE003:    Male: Under 5 years
+        AQYNE004:    Male: 5 to 9 years
+        AQYNE005:    Male: 10 to 14 years
+        AQYNE006:    Male: 15 to 17 years
+        AQYNE007:    Male: 18 and 19 years
+        AQYNE008:    Male: 20 to 24 years
+        AQYNE009:    Male: 25 to 29 years
+        AQYNE010:    Male: 30 to 34 years
+        AQYNE011:    Male: 35 to 44 years
+        AQYNE012:    Male: 45 to 54 years
+        AQYNE013:    Male: 55 to 64 years
+        AQYNE014:    Male: 65 to 74 years
+        AQYNE015:    Male: 75 to 84 years
+        AQYNE016:    Male: 85 years and over
+        AQYNE017:    Female
+        AQYNE018:    Female: Under 5 years
+        AQYNE019:    Female: 5 to 9 years
+        AQYNE020:    Female: 10 to 14 years
+        AQYNE021:    Female: 15 to 17 years
+        AQYNE022:    Female: 18 and 19 years
+        AQYNE023:    Female: 20 to 24 years
+        AQYNE024:    Female: 25 to 29 years
+        AQYNE025:    Female: 30 to 34 years
+        AQYNE026:    Female: 35 to 44 years
+        AQYNE027:    Female: 45 to 54 years
+        AQYNE028:    Female: 55 to 64 years
+        AQYNE029:    Female: 65 to 74 years
+        AQYNE030:    Female: 75 to 84 years
+        AQYNE031:    Female: 85 years and over
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Geographic Area Full Name
+ 
+    Table 1:     Sex by Age (White Alone)
+    Universe:    People who are White alone
+    Source code: B01001A
+    NHGIS code:  AQYH
+        AQYHM001:    Total
+        AQYHM002:    Male
+        AQYHM003:    Male: Under 5 years
+        AQYHM004:    Male: 5 to 9 years
+        AQYHM005:    Male: 10 to 14 years
+        AQYHM006:    Male: 15 to 17 years
+        AQYHM007:    Male: 18 and 19 years
+        AQYHM008:    Male: 20 to 24 years
+        AQYHM009:    Male: 25 to 29 years
+        AQYHM010:    Male: 30 to 34 years
+        AQYHM011:    Male: 35 to 44 years
+        AQYHM012:    Male: 45 to 54 years
+        AQYHM013:    Male: 55 to 64 years
+        AQYHM014:    Male: 65 to 74 years
+        AQYHM015:    Male: 75 to 84 years
+        AQYHM016:    Male: 85 years and over
+        AQYHM017:    Female
+        AQYHM018:    Female: Under 5 years
+        AQYHM019:    Female: 5 to 9 years
+        AQYHM020:    Female: 10 to 14 years
+        AQYHM021:    Female: 15 to 17 years
+        AQYHM022:    Female: 18 and 19 years
+        AQYHM023:    Female: 20 to 24 years
+        AQYHM024:    Female: 25 to 29 years
+        AQYHM025:    Female: 30 to 34 years
+        AQYHM026:    Female: 35 to 44 years
+        AQYHM027:    Female: 45 to 54 years
+        AQYHM028:    Female: 55 to 64 years
+        AQYHM029:    Female: 65 to 74 years
+        AQYHM030:    Female: 75 to 84 years
+        AQYHM031:    Female: 85 years and over
+ 
+    Table 2:     Sex by Age (Black or African American Alone)
+    Universe:    People who are Black or African American alone
+    Source code: B01001B
+    NHGIS code:  AQYI
+        AQYIM001:    Total
+        AQYIM002:    Male
+        AQYIM003:    Male: Under 5 years
+        AQYIM004:    Male: 5 to 9 years
+        AQYIM005:    Male: 10 to 14 years
+        AQYIM006:    Male: 15 to 17 years
+        AQYIM007:    Male: 18 and 19 years
+        AQYIM008:    Male: 20 to 24 years
+        AQYIM009:    Male: 25 to 29 years
+        AQYIM010:    Male: 30 to 34 years
+        AQYIM011:    Male: 35 to 44 years
+        AQYIM012:    Male: 45 to 54 years
+        AQYIM013:    Male: 55 to 64 years
+        AQYIM014:    Male: 65 to 74 years
+        AQYIM015:    Male: 75 to 84 years
+        AQYIM016:    Male: 85 years and over
+        AQYIM017:    Female
+        AQYIM018:    Female: Under 5 years
+        AQYIM019:    Female: 5 to 9 years
+        AQYIM020:    Female: 10 to 14 years
+        AQYIM021:    Female: 15 to 17 years
+        AQYIM022:    Female: 18 and 19 years
+        AQYIM023:    Female: 20 to 24 years
+        AQYIM024:    Female: 25 to 29 years
+        AQYIM025:    Female: 30 to 34 years
+        AQYIM026:    Female: 35 to 44 years
+        AQYIM027:    Female: 45 to 54 years
+        AQYIM028:    Female: 55 to 64 years
+        AQYIM029:    Female: 65 to 74 years
+        AQYIM030:    Female: 75 to 84 years
+        AQYIM031:    Female: 85 years and over
+ 
+    Table 3:     Sex by Age (American Indian and Alaska Native Alone)
+    Universe:    People who are American Indian and Alaska Native alone
+    Source code: B01001C
+    NHGIS code:  AQYJ
+        AQYJM001:    Total
+        AQYJM002:    Male
+        AQYJM003:    Male: Under 5 years
+        AQYJM004:    Male: 5 to 9 years
+        AQYJM005:    Male: 10 to 14 years
+        AQYJM006:    Male: 15 to 17 years
+        AQYJM007:    Male: 18 and 19 years
+        AQYJM008:    Male: 20 to 24 years
+        AQYJM009:    Male: 25 to 29 years
+        AQYJM010:    Male: 30 to 34 years
+        AQYJM011:    Male: 35 to 44 years
+        AQYJM012:    Male: 45 to 54 years
+        AQYJM013:    Male: 55 to 64 years
+        AQYJM014:    Male: 65 to 74 years
+        AQYJM015:    Male: 75 to 84 years
+        AQYJM016:    Male: 85 years and over
+        AQYJM017:    Female
+        AQYJM018:    Female: Under 5 years
+        AQYJM019:    Female: 5 to 9 years
+        AQYJM020:    Female: 10 to 14 years
+        AQYJM021:    Female: 15 to 17 years
+        AQYJM022:    Female: 18 and 19 years
+        AQYJM023:    Female: 20 to 24 years
+        AQYJM024:    Female: 25 to 29 years
+        AQYJM025:    Female: 30 to 34 years
+        AQYJM026:    Female: 35 to 44 years
+        AQYJM027:    Female: 45 to 54 years
+        AQYJM028:    Female: 55 to 64 years
+        AQYJM029:    Female: 65 to 74 years
+        AQYJM030:    Female: 75 to 84 years
+        AQYJM031:    Female: 85 years and over
+ 
+    Table 4:     Sex by Age (Asian Alone)
+    Universe:    People who are Asian alone
+    Source code: B01001D
+    NHGIS code:  AQYK
+        AQYKM001:    Total
+        AQYKM002:    Male
+        AQYKM003:    Male: Under 5 years
+        AQYKM004:    Male: 5 to 9 years
+        AQYKM005:    Male: 10 to 14 years
+        AQYKM006:    Male: 15 to 17 years
+        AQYKM007:    Male: 18 and 19 years
+        AQYKM008:    Male: 20 to 24 years
+        AQYKM009:    Male: 25 to 29 years
+        AQYKM010:    Male: 30 to 34 years
+        AQYKM011:    Male: 35 to 44 years
+        AQYKM012:    Male: 45 to 54 years
+        AQYKM013:    Male: 55 to 64 years
+        AQYKM014:    Male: 65 to 74 years
+        AQYKM015:    Male: 75 to 84 years
+        AQYKM016:    Male: 85 years and over
+        AQYKM017:    Female
+        AQYKM018:    Female: Under 5 years
+        AQYKM019:    Female: 5 to 9 years
+        AQYKM020:    Female: 10 to 14 years
+        AQYKM021:    Female: 15 to 17 years
+        AQYKM022:    Female: 18 and 19 years
+        AQYKM023:    Female: 20 to 24 years
+        AQYKM024:    Female: 25 to 29 years
+        AQYKM025:    Female: 30 to 34 years
+        AQYKM026:    Female: 35 to 44 years
+        AQYKM027:    Female: 45 to 54 years
+        AQYKM028:    Female: 55 to 64 years
+        AQYKM029:    Female: 65 to 74 years
+        AQYKM030:    Female: 75 to 84 years
+        AQYKM031:    Female: 85 years and over
+ 
+    Table 5:     Sex by Age (Native Hawaiian and Other Pacific Islander Alone)
+    Universe:    People who are Native Hawaiian and Other Pacific Islander alone
+    Source code: B01001E
+    NHGIS code:  AQYL
+        AQYLM001:    Total
+        AQYLM002:    Male
+        AQYLM003:    Male: Under 5 years
+        AQYLM004:    Male: 5 to 9 years
+        AQYLM005:    Male: 10 to 14 years
+        AQYLM006:    Male: 15 to 17 years
+        AQYLM007:    Male: 18 and 19 years
+        AQYLM008:    Male: 20 to 24 years
+        AQYLM009:    Male: 25 to 29 years
+        AQYLM010:    Male: 30 to 34 years
+        AQYLM011:    Male: 35 to 44 years
+        AQYLM012:    Male: 45 to 54 years
+        AQYLM013:    Male: 55 to 64 years
+        AQYLM014:    Male: 65 to 74 years
+        AQYLM015:    Male: 75 to 84 years
+        AQYLM016:    Male: 85 years and over
+        AQYLM017:    Female
+        AQYLM018:    Female: Under 5 years
+        AQYLM019:    Female: 5 to 9 years
+        AQYLM020:    Female: 10 to 14 years
+        AQYLM021:    Female: 15 to 17 years
+        AQYLM022:    Female: 18 and 19 years
+        AQYLM023:    Female: 20 to 24 years
+        AQYLM024:    Female: 25 to 29 years
+        AQYLM025:    Female: 30 to 34 years
+        AQYLM026:    Female: 35 to 44 years
+        AQYLM027:    Female: 45 to 54 years
+        AQYLM028:    Female: 55 to 64 years
+        AQYLM029:    Female: 65 to 74 years
+        AQYLM030:    Female: 75 to 84 years
+        AQYLM031:    Female: 85 years and over
+ 
+    Table 6:     Sex by Age (Some Other Race Alone)
+    Universe:    People who are Some Other Race alone
+    Source code: B01001F
+    NHGIS code:  AQYM
+        AQYMM001:    Total
+        AQYMM002:    Male
+        AQYMM003:    Male: Under 5 years
+        AQYMM004:    Male: 5 to 9 years
+        AQYMM005:    Male: 10 to 14 years
+        AQYMM006:    Male: 15 to 17 years
+        AQYMM007:    Male: 18 and 19 years
+        AQYMM008:    Male: 20 to 24 years
+        AQYMM009:    Male: 25 to 29 years
+        AQYMM010:    Male: 30 to 34 years
+        AQYMM011:    Male: 35 to 44 years
+        AQYMM012:    Male: 45 to 54 years
+        AQYMM013:    Male: 55 to 64 years
+        AQYMM014:    Male: 65 to 74 years
+        AQYMM015:    Male: 75 to 84 years
+        AQYMM016:    Male: 85 years and over
+        AQYMM017:    Female
+        AQYMM018:    Female: Under 5 years
+        AQYMM019:    Female: 5 to 9 years
+        AQYMM020:    Female: 10 to 14 years
+        AQYMM021:    Female: 15 to 17 years
+        AQYMM022:    Female: 18 and 19 years
+        AQYMM023:    Female: 20 to 24 years
+        AQYMM024:    Female: 25 to 29 years
+        AQYMM025:    Female: 30 to 34 years
+        AQYMM026:    Female: 35 to 44 years
+        AQYMM027:    Female: 45 to 54 years
+        AQYMM028:    Female: 55 to 64 years
+        AQYMM029:    Female: 65 to 74 years
+        AQYMM030:    Female: 75 to 84 years
+        AQYMM031:    Female: 85 years and over
+ 
+    Table 7:     Sex by Age (Two or More Races)
+    Universe:    People who are Two or More Races
+    Source code: B01001G
+    NHGIS code:  AQYN
+        AQYNM001:    Total
+        AQYNM002:    Male
+        AQYNM003:    Male: Under 5 years
+        AQYNM004:    Male: 5 to 9 years
+        AQYNM005:    Male: 10 to 14 years
+        AQYNM006:    Male: 15 to 17 years
+        AQYNM007:    Male: 18 and 19 years
+        AQYNM008:    Male: 20 to 24 years
+        AQYNM009:    Male: 25 to 29 years
+        AQYNM010:    Male: 30 to 34 years
+        AQYNM011:    Male: 35 to 44 years
+        AQYNM012:    Male: 45 to 54 years
+        AQYNM013:    Male: 55 to 64 years
+        AQYNM014:    Male: 65 to 74 years
+        AQYNM015:    Male: 75 to 84 years
+        AQYNM016:    Male: 85 years and over
+        AQYNM017:    Female
+        AQYNM018:    Female: Under 5 years
+        AQYNM019:    Female: 5 to 9 years
+        AQYNM020:    Female: 10 to 14 years
+        AQYNM021:    Female: 15 to 17 years
+        AQYNM022:    Female: 18 and 19 years
+        AQYNM023:    Female: 20 to 24 years
+        AQYNM024:    Female: 25 to 29 years
+        AQYNM025:    Female: 30 to 34 years
+        AQYNM026:    Female: 35 to 44 years
+        AQYNM027:    Female: 45 to 54 years
+        AQYNM028:    Female: 55 to 64 years
+        AQYNM029:    Female: 65 to 74 years
+        AQYNM030:    Female: 75 to 84 years
+        AQYNM031:    Female: 85 years and over
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles.
+        IPUMS National Historical Geographic Information System: Version 18.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2023.
+        http://doi.org/10.18128/D050.V18.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
