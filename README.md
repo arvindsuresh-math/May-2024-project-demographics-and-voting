@@ -1,3 +1,4 @@
+
 # May-2024-project-education-and-politics
 This repository will be used for the project work of data science boot camp.
 <br>
@@ -47,5 +48,7 @@ In the lens of our problem formulation, we view a model that achieves a performa
 The classification accuracy score of the models remained relatively stable between the cross-validation and test sets, in most cases not exceeding 3-4%. We found two remarkable patterns, which went against our intuition, while still providing positive evidence for our thesis:
 1. In a majority of cases, the test accuracy turned out better than the CV accuracy. For example, the Random Forest Regressor trained in 2008 had CV accuracy of 0.855; when we tested it on 2012, 2016, and 2020, we found accuracies of 0.888, 0.872, and 0.83, respectively. 
 2. The accuracy scores tend to be better when predicting forward in time. For example, among all the models trained in 2016, the test accuracies for the year 2020 ranged between 0.866 and 0.939, whereas the test accuracies for 2008 ranged between 0.759 and 0.808. 
+
+=======
 
 
