@@ -1,9 +1,8 @@
 
 # May-2024-project-education-and-politics
-This repository will be used for the project work of data science boot camp.
-<br>
+
 Authors: Arvind Suresh, Fernando Liu Lopez
-<br>
+
 Link to presentation video: https://drive.google.com/file/d/1aSSk95RSzTjz1rd72wHHm_d8YIJ0Yqai/view?usp=sharing
 
 ## Project overview
