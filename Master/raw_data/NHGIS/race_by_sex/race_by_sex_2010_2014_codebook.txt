@@ -1,0 +1,668 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0009_ds207_20145_county'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2010-2014
+Geographic level: County (by State)
+Dataset:          2014 American Community Survey: 5-Year Data [2010-2014, Tracts & Larger Areas]
+   NHGIS code:    2010_2014_ACS5b
+   NHGIS ID:      ds207
+Breakdown(s):     Geographic Component:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Sex by Age (White Alone)
+   Universe:    People who are White alone
+   Source code: B01001A
+   NHGIS code:  ABK1
+ 
+2. Sex by Age (Black or African American Alone)
+   Universe:    Black or African American alone
+   Source code: B01001B
+   NHGIS code:  ABK2
+ 
+3. Sex by Age (American Indian and Alaska Native Alone)
+   Universe:    People who are American Indian and Alaska Native alone
+   Source code: B01001C
+   NHGIS code:  ABK3
+ 
+4. Sex by Age (Asian Alone)
+   Universe:    People who are Asian alone
+   Source code: B01001D
+   NHGIS code:  ABK4
+ 
+5. Sex by Age (Native Hawaiian and Other Pacific Islander Alone)
+   Universe:    People who are Native Hawaiian and Other Pacific Islander alone
+   Source code: B01001E
+   NHGIS code:  ABK5
+ 
+6. Sex by Age (Some Other Race Alone)
+   Universe:    People who are Some Other Race alone
+   Source code: B01001F
+   NHGIS code:  ABK6
+ 
+7. Sex by Age (Two or More Races)
+   Universe:    People who are Two or More Races
+   Source code: B01001G
+   NHGIS code:  ABK7
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State Postal Abbreviation
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIHHTLI:     American Indian Trust Land/ Hawaiian Home Land Indicator
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2013-2017, 113th-114th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PCI:         Principal City Indicator
+        PUMAA:       Public Use Microdata Area Code
+        GEOID:       Geographic Identifier
+        BTTRA:       Tribal Census Tract Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Sex by Age (White Alone)
+    Universe:    People who are White alone
+    Source code: B01001A
+    NHGIS code:  ABK1
+        ABK1E001:    Total
+        ABK1E002:    Male
+        ABK1E003:    Male: Under 5 years
+        ABK1E004:    Male: 5 to 9 years
+        ABK1E005:    Male: 10 to 14 years
+        ABK1E006:    Male: 15 to 17 years
+        ABK1E007:    Male: 18 and 19 years
+        ABK1E008:    Male: 20 to 24 years
+        ABK1E009:    Male: 25 to 29 years
+        ABK1E010:    Male: 30 to 34 years
+        ABK1E011:    Male: 35 to 44 years
+        ABK1E012:    Male: 45 to 54 years
+        ABK1E013:    Male: 55 to 64 years
+        ABK1E014:    Male: 65 to 74 years
+        ABK1E015:    Male: 75 to 84 years
+        ABK1E016:    Male: 85 years and over
+        ABK1E017:    Female
+        ABK1E018:    Female: Under 5 years
+        ABK1E019:    Female: 5 to 9 years
+        ABK1E020:    Female: 10 to 14 years
+        ABK1E021:    Female: 15 to 17 years
+        ABK1E022:    Female: 18 and 19 years
+        ABK1E023:    Female: 20 to 24 years
+        ABK1E024:    Female: 25 to 29 years
+        ABK1E025:    Female: 30 to 34 years
+        ABK1E026:    Female: 35 to 44 years
+        ABK1E027:    Female: 45 to 54 years
+        ABK1E028:    Female: 55 to 64 years
+        ABK1E029:    Female: 65 to 74 years
+        ABK1E030:    Female: 75 to 84 years
+        ABK1E031:    Female: 85 years and over
+ 
+    Table 2:     Sex by Age (Black or African American Alone)
+    Universe:    Black or African American alone
+    Source code: B01001B
+    NHGIS code:  ABK2
+        ABK2E001:    Total
+        ABK2E002:    Male
+        ABK2E003:    Male: Under 5 years
+        ABK2E004:    Male: 5 to 9 years
+        ABK2E005:    Male: 10 to 14 years
+        ABK2E006:    Male: 15 to 17 years
+        ABK2E007:    Male: 18 and 19 years
+        ABK2E008:    Male: 20 to 24 years
+        ABK2E009:    Male: 25 to 29 years
+        ABK2E010:    Male: 30 to 34 years
+        ABK2E011:    Male: 35 to 44 years
+        ABK2E012:    Male: 45 to 54 years
+        ABK2E013:    Male: 55 to 64 years
+        ABK2E014:    Male: 65 to 74 years
+        ABK2E015:    Male: 75 to 84 years
+        ABK2E016:    Male: 85 years and over
+        ABK2E017:    Female
+        ABK2E018:    Female: Under 5 years
+        ABK2E019:    Female: 5 to 9 years
+        ABK2E020:    Female: 10 to 14 years
+        ABK2E021:    Female: 15 to 17 years
+        ABK2E022:    Female: 18 and 19 years
+        ABK2E023:    Female: 20 to 24 years
+        ABK2E024:    Female: 25 to 29 years
+        ABK2E025:    Female: 30 to 34 years
+        ABK2E026:    Female: 35 to 44 years
+        ABK2E027:    Female: 45 to 54 years
+        ABK2E028:    Female: 55 to 64 years
+        ABK2E029:    Female: 65 to 74 years
+        ABK2E030:    Female: 75 to 84 years
+        ABK2E031:    Female: 85 years and over
+ 
+    Table 3:     Sex by Age (American Indian and Alaska Native Alone)
+    Universe:    People who are American Indian and Alaska Native alone
+    Source code: B01001C
+    NHGIS code:  ABK3
+        ABK3E001:    Total
+        ABK3E002:    Male
+        ABK3E003:    Male: Under 5 years
+        ABK3E004:    Male: 5 to 9 years
+        ABK3E005:    Male: 10 to 14 years
+        ABK3E006:    Male: 15 to 17 years
+        ABK3E007:    Male: 18 and 19 years
+        ABK3E008:    Male: 20 to 24 years
+        ABK3E009:    Male: 25 to 29 years
+        ABK3E010:    Male: 30 to 34 years
+        ABK3E011:    Male: 35 to 44 years
+        ABK3E012:    Male: 45 to 54 years
+        ABK3E013:    Male: 55 to 64 years
+        ABK3E014:    Male: 65 to 74 years
+        ABK3E015:    Male: 75 to 84 years
+        ABK3E016:    Male: 85 years and over
+        ABK3E017:    Female
+        ABK3E018:    Female: Under 5 years
+        ABK3E019:    Female: 5 to 9 years
+        ABK3E020:    Female: 10 to 14 years
+        ABK3E021:    Female: 15 to 17 years
+        ABK3E022:    Female: 18 and 19 years
+        ABK3E023:    Female: 20 to 24 years
+        ABK3E024:    Female: 25 to 29 years
+        ABK3E025:    Female: 30 to 34 years
+        ABK3E026:    Female: 35 to 44 years
+        ABK3E027:    Female: 45 to 54 years
+        ABK3E028:    Female: 55 to 64 years
+        ABK3E029:    Female: 65 to 74 years
+        ABK3E030:    Female: 75 to 84 years
+        ABK3E031:    Female: 85 years and over
+ 
+    Table 4:     Sex by Age (Asian Alone)
+    Universe:    People who are Asian alone
+    Source code: B01001D
+    NHGIS code:  ABK4
+        ABK4E001:    Total
+        ABK4E002:    Male
+        ABK4E003:    Male: Under 5 years
+        ABK4E004:    Male: 5 to 9 years
+        ABK4E005:    Male: 10 to 14 years
+        ABK4E006:    Male: 15 to 17 years
+        ABK4E007:    Male: 18 and 19 years
+        ABK4E008:    Male: 20 to 24 years
+        ABK4E009:    Male: 25 to 29 years
+        ABK4E010:    Male: 30 to 34 years
+        ABK4E011:    Male: 35 to 44 years
+        ABK4E012:    Male: 45 to 54 years
+        ABK4E013:    Male: 55 to 64 years
+        ABK4E014:    Male: 65 to 74 years
+        ABK4E015:    Male: 75 to 84 years
+        ABK4E016:    Male: 85 years and over
+        ABK4E017:    Female
+        ABK4E018:    Female: Under 5 years
+        ABK4E019:    Female: 5 to 9 years
+        ABK4E020:    Female: 10 to 14 years
+        ABK4E021:    Female: 15 to 17 years
+        ABK4E022:    Female: 18 and 19 years
+        ABK4E023:    Female: 20 to 24 years
+        ABK4E024:    Female: 25 to 29 years
+        ABK4E025:    Female: 30 to 34 years
+        ABK4E026:    Female: 35 to 44 years
+        ABK4E027:    Female: 45 to 54 years
+        ABK4E028:    Female: 55 to 64 years
+        ABK4E029:    Female: 65 to 74 years
+        ABK4E030:    Female: 75 to 84 years
+        ABK4E031:    Female: 85 years and over
+ 
+    Table 5:     Sex by Age (Native Hawaiian and Other Pacific Islander Alone)
+    Universe:    People who are Native Hawaiian and Other Pacific Islander alone
+    Source code: B01001E
+    NHGIS code:  ABK5
+        ABK5E001:    Total
+        ABK5E002:    Male
+        ABK5E003:    Male: Under 5 years
+        ABK5E004:    Male: 5 to 9 years
+        ABK5E005:    Male: 10 to 14 years
+        ABK5E006:    Male: 15 to 17 years
+        ABK5E007:    Male: 18 and 19 years
+        ABK5E008:    Male: 20 to 24 years
+        ABK5E009:    Male: 25 to 29 years
+        ABK5E010:    Male: 30 to 34 years
+        ABK5E011:    Male: 35 to 44 years
+        ABK5E012:    Male: 45 to 54 years
+        ABK5E013:    Male: 55 to 64 years
+        ABK5E014:    Male: 65 to 74 years
+        ABK5E015:    Male: 75 to 84 years
+        ABK5E016:    Male: 85 years and over
+        ABK5E017:    Female
+        ABK5E018:    Female: Under 5 years
+        ABK5E019:    Female: 5 to 9 years
+        ABK5E020:    Female: 10 to 14 years
+        ABK5E021:    Female: 15 to 17 years
+        ABK5E022:    Female: 18 and 19 years
+        ABK5E023:    Female: 20 to 24 years
+        ABK5E024:    Female: 25 to 29 years
+        ABK5E025:    Female: 30 to 34 years
+        ABK5E026:    Female: 35 to 44 years
+        ABK5E027:    Female: 45 to 54 years
+        ABK5E028:    Female: 55 to 64 years
+        ABK5E029:    Female: 65 to 74 years
+        ABK5E030:    Female: 75 to 84 years
+        ABK5E031:    Female: 85 years and over
+ 
+    Table 6:     Sex by Age (Some Other Race Alone)
+    Universe:    People who are Some Other Race alone
+    Source code: B01001F
+    NHGIS code:  ABK6
+        ABK6E001:    Total
+        ABK6E002:    Male
+        ABK6E003:    Male: Under 5 years
+        ABK6E004:    Male: 5 to 9 years
+        ABK6E005:    Male: 10 to 14 years
+        ABK6E006:    Male: 15 to 17 years
+        ABK6E007:    Male: 18 and 19 years
+        ABK6E008:    Male: 20 to 24 years
+        ABK6E009:    Male: 25 to 29 years
+        ABK6E010:    Male: 30 to 34 years
+        ABK6E011:    Male: 35 to 44 years
+        ABK6E012:    Male: 45 to 54 years
+        ABK6E013:    Male: 55 to 64 years
+        ABK6E014:    Male: 65 to 74 years
+        ABK6E015:    Male: 75 to 84 years
+        ABK6E016:    Male: 85 years and over
+        ABK6E017:    Female
+        ABK6E018:    Female: Under 5 years
+        ABK6E019:    Female: 5 to 9 years
+        ABK6E020:    Female: 10 to 14 years
+        ABK6E021:    Female: 15 to 17 years
+        ABK6E022:    Female: 18 and 19 years
+        ABK6E023:    Female: 20 to 24 years
+        ABK6E024:    Female: 25 to 29 years
+        ABK6E025:    Female: 30 to 34 years
+        ABK6E026:    Female: 35 to 44 years
+        ABK6E027:    Female: 45 to 54 years
+        ABK6E028:    Female: 55 to 64 years
+        ABK6E029:    Female: 65 to 74 years
+        ABK6E030:    Female: 75 to 84 years
+        ABK6E031:    Female: 85 years and over
+ 
+    Table 7:     Sex by Age (Two or More Races)
+    Universe:    People who are Two or More Races
+    Source code: B01001G
+    NHGIS code:  ABK7
+        ABK7E001:    Total
+        ABK7E002:    Male
+        ABK7E003:    Male: Under 5 years
+        ABK7E004:    Male: 5 to 9 years
+        ABK7E005:    Male: 10 to 14 years
+        ABK7E006:    Male: 15 to 17 years
+        ABK7E007:    Male: 18 and 19 years
+        ABK7E008:    Male: 20 to 24 years
+        ABK7E009:    Male: 25 to 29 years
+        ABK7E010:    Male: 30 to 34 years
+        ABK7E011:    Male: 35 to 44 years
+        ABK7E012:    Male: 45 to 54 years
+        ABK7E013:    Male: 55 to 64 years
+        ABK7E014:    Male: 65 to 74 years
+        ABK7E015:    Male: 75 to 84 years
+        ABK7E016:    Male: 85 years and over
+        ABK7E017:    Female
+        ABK7E018:    Female: Under 5 years
+        ABK7E019:    Female: 5 to 9 years
+        ABK7E020:    Female: 10 to 14 years
+        ABK7E021:    Female: 15 to 17 years
+        ABK7E022:    Female: 18 and 19 years
+        ABK7E023:    Female: 20 to 24 years
+        ABK7E024:    Female: 25 to 29 years
+        ABK7E025:    Female: 30 to 34 years
+        ABK7E026:    Female: 35 to 44 years
+        ABK7E027:    Female: 45 to 54 years
+        ABK7E028:    Female: 55 to 64 years
+        ABK7E029:    Female: 65 to 74 years
+        ABK7E030:    Female: 75 to 84 years
+        ABK7E031:    Female: 85 years and over
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Sex by Age (White Alone)
+    Universe:    People who are White alone
+    Source code: B01001A
+    NHGIS code:  ABK1
+        ABK1M001:    Total
+        ABK1M002:    Male
+        ABK1M003:    Male: Under 5 years
+        ABK1M004:    Male: 5 to 9 years
+        ABK1M005:    Male: 10 to 14 years
+        ABK1M006:    Male: 15 to 17 years
+        ABK1M007:    Male: 18 and 19 years
+        ABK1M008:    Male: 20 to 24 years
+        ABK1M009:    Male: 25 to 29 years
+        ABK1M010:    Male: 30 to 34 years
+        ABK1M011:    Male: 35 to 44 years
+        ABK1M012:    Male: 45 to 54 years
+        ABK1M013:    Male: 55 to 64 years
+        ABK1M014:    Male: 65 to 74 years
+        ABK1M015:    Male: 75 to 84 years
+        ABK1M016:    Male: 85 years and over
+        ABK1M017:    Female
+        ABK1M018:    Female: Under 5 years
+        ABK1M019:    Female: 5 to 9 years
+        ABK1M020:    Female: 10 to 14 years
+        ABK1M021:    Female: 15 to 17 years
+        ABK1M022:    Female: 18 and 19 years
+        ABK1M023:    Female: 20 to 24 years
+        ABK1M024:    Female: 25 to 29 years
+        ABK1M025:    Female: 30 to 34 years
+        ABK1M026:    Female: 35 to 44 years
+        ABK1M027:    Female: 45 to 54 years
+        ABK1M028:    Female: 55 to 64 years
+        ABK1M029:    Female: 65 to 74 years
+        ABK1M030:    Female: 75 to 84 years
+        ABK1M031:    Female: 85 years and over
+ 
+    Table 2:     Sex by Age (Black or African American Alone)
+    Universe:    Black or African American alone
+    Source code: B01001B
+    NHGIS code:  ABK2
+        ABK2M001:    Total
+        ABK2M002:    Male
+        ABK2M003:    Male: Under 5 years
+        ABK2M004:    Male: 5 to 9 years
+        ABK2M005:    Male: 10 to 14 years
+        ABK2M006:    Male: 15 to 17 years
+        ABK2M007:    Male: 18 and 19 years
+        ABK2M008:    Male: 20 to 24 years
+        ABK2M009:    Male: 25 to 29 years
+        ABK2M010:    Male: 30 to 34 years
+        ABK2M011:    Male: 35 to 44 years
+        ABK2M012:    Male: 45 to 54 years
+        ABK2M013:    Male: 55 to 64 years
+        ABK2M014:    Male: 65 to 74 years
+        ABK2M015:    Male: 75 to 84 years
+        ABK2M016:    Male: 85 years and over
+        ABK2M017:    Female
+        ABK2M018:    Female: Under 5 years
+        ABK2M019:    Female: 5 to 9 years
+        ABK2M020:    Female: 10 to 14 years
+        ABK2M021:    Female: 15 to 17 years
+        ABK2M022:    Female: 18 and 19 years
+        ABK2M023:    Female: 20 to 24 years
+        ABK2M024:    Female: 25 to 29 years
+        ABK2M025:    Female: 30 to 34 years
+        ABK2M026:    Female: 35 to 44 years
+        ABK2M027:    Female: 45 to 54 years
+        ABK2M028:    Female: 55 to 64 years
+        ABK2M029:    Female: 65 to 74 years
+        ABK2M030:    Female: 75 to 84 years
+        ABK2M031:    Female: 85 years and over
+ 
+    Table 3:     Sex by Age (American Indian and Alaska Native Alone)
+    Universe:    People who are American Indian and Alaska Native alone
+    Source code: B01001C
+    NHGIS code:  ABK3
+        ABK3M001:    Total
+        ABK3M002:    Male
+        ABK3M003:    Male: Under 5 years
+        ABK3M004:    Male: 5 to 9 years
+        ABK3M005:    Male: 10 to 14 years
+        ABK3M006:    Male: 15 to 17 years
+        ABK3M007:    Male: 18 and 19 years
+        ABK3M008:    Male: 20 to 24 years
+        ABK3M009:    Male: 25 to 29 years
+        ABK3M010:    Male: 30 to 34 years
+        ABK3M011:    Male: 35 to 44 years
+        ABK3M012:    Male: 45 to 54 years
+        ABK3M013:    Male: 55 to 64 years
+        ABK3M014:    Male: 65 to 74 years
+        ABK3M015:    Male: 75 to 84 years
+        ABK3M016:    Male: 85 years and over
+        ABK3M017:    Female
+        ABK3M018:    Female: Under 5 years
+        ABK3M019:    Female: 5 to 9 years
+        ABK3M020:    Female: 10 to 14 years
+        ABK3M021:    Female: 15 to 17 years
+        ABK3M022:    Female: 18 and 19 years
+        ABK3M023:    Female: 20 to 24 years
+        ABK3M024:    Female: 25 to 29 years
+        ABK3M025:    Female: 30 to 34 years
+        ABK3M026:    Female: 35 to 44 years
+        ABK3M027:    Female: 45 to 54 years
+        ABK3M028:    Female: 55 to 64 years
+        ABK3M029:    Female: 65 to 74 years
+        ABK3M030:    Female: 75 to 84 years
+        ABK3M031:    Female: 85 years and over
+ 
+    Table 4:     Sex by Age (Asian Alone)
+    Universe:    People who are Asian alone
+    Source code: B01001D
+    NHGIS code:  ABK4
+        ABK4M001:    Total
+        ABK4M002:    Male
+        ABK4M003:    Male: Under 5 years
+        ABK4M004:    Male: 5 to 9 years
+        ABK4M005:    Male: 10 to 14 years
+        ABK4M006:    Male: 15 to 17 years
+        ABK4M007:    Male: 18 and 19 years
+        ABK4M008:    Male: 20 to 24 years
+        ABK4M009:    Male: 25 to 29 years
+        ABK4M010:    Male: 30 to 34 years
+        ABK4M011:    Male: 35 to 44 years
+        ABK4M012:    Male: 45 to 54 years
+        ABK4M013:    Male: 55 to 64 years
+        ABK4M014:    Male: 65 to 74 years
+        ABK4M015:    Male: 75 to 84 years
+        ABK4M016:    Male: 85 years and over
+        ABK4M017:    Female
+        ABK4M018:    Female: Under 5 years
+        ABK4M019:    Female: 5 to 9 years
+        ABK4M020:    Female: 10 to 14 years
+        ABK4M021:    Female: 15 to 17 years
+        ABK4M022:    Female: 18 and 19 years
+        ABK4M023:    Female: 20 to 24 years
+        ABK4M024:    Female: 25 to 29 years
+        ABK4M025:    Female: 30 to 34 years
+        ABK4M026:    Female: 35 to 44 years
+        ABK4M027:    Female: 45 to 54 years
+        ABK4M028:    Female: 55 to 64 years
+        ABK4M029:    Female: 65 to 74 years
+        ABK4M030:    Female: 75 to 84 years
+        ABK4M031:    Female: 85 years and over
+ 
+    Table 5:     Sex by Age (Native Hawaiian and Other Pacific Islander Alone)
+    Universe:    People who are Native Hawaiian and Other Pacific Islander alone
+    Source code: B01001E
+    NHGIS code:  ABK5
+        ABK5M001:    Total
+        ABK5M002:    Male
+        ABK5M003:    Male: Under 5 years
+        ABK5M004:    Male: 5 to 9 years
+        ABK5M005:    Male: 10 to 14 years
+        ABK5M006:    Male: 15 to 17 years
+        ABK5M007:    Male: 18 and 19 years
+        ABK5M008:    Male: 20 to 24 years
+        ABK5M009:    Male: 25 to 29 years
+        ABK5M010:    Male: 30 to 34 years
+        ABK5M011:    Male: 35 to 44 years
+        ABK5M012:    Male: 45 to 54 years
+        ABK5M013:    Male: 55 to 64 years
+        ABK5M014:    Male: 65 to 74 years
+        ABK5M015:    Male: 75 to 84 years
+        ABK5M016:    Male: 85 years and over
+        ABK5M017:    Female
+        ABK5M018:    Female: Under 5 years
+        ABK5M019:    Female: 5 to 9 years
+        ABK5M020:    Female: 10 to 14 years
+        ABK5M021:    Female: 15 to 17 years
+        ABK5M022:    Female: 18 and 19 years
+        ABK5M023:    Female: 20 to 24 years
+        ABK5M024:    Female: 25 to 29 years
+        ABK5M025:    Female: 30 to 34 years
+        ABK5M026:    Female: 35 to 44 years
+        ABK5M027:    Female: 45 to 54 years
+        ABK5M028:    Female: 55 to 64 years
+        ABK5M029:    Female: 65 to 74 years
+        ABK5M030:    Female: 75 to 84 years
+        ABK5M031:    Female: 85 years and over
+ 
+    Table 6:     Sex by Age (Some Other Race Alone)
+    Universe:    People who are Some Other Race alone
+    Source code: B01001F
+    NHGIS code:  ABK6
+        ABK6M001:    Total
+        ABK6M002:    Male
+        ABK6M003:    Male: Under 5 years
+        ABK6M004:    Male: 5 to 9 years
+        ABK6M005:    Male: 10 to 14 years
+        ABK6M006:    Male: 15 to 17 years
+        ABK6M007:    Male: 18 and 19 years
+        ABK6M008:    Male: 20 to 24 years
+        ABK6M009:    Male: 25 to 29 years
+        ABK6M010:    Male: 30 to 34 years
+        ABK6M011:    Male: 35 to 44 years
+        ABK6M012:    Male: 45 to 54 years
+        ABK6M013:    Male: 55 to 64 years
+        ABK6M014:    Male: 65 to 74 years
+        ABK6M015:    Male: 75 to 84 years
+        ABK6M016:    Male: 85 years and over
+        ABK6M017:    Female
+        ABK6M018:    Female: Under 5 years
+        ABK6M019:    Female: 5 to 9 years
+        ABK6M020:    Female: 10 to 14 years
+        ABK6M021:    Female: 15 to 17 years
+        ABK6M022:    Female: 18 and 19 years
+        ABK6M023:    Female: 20 to 24 years
+        ABK6M024:    Female: 25 to 29 years
+        ABK6M025:    Female: 30 to 34 years
+        ABK6M026:    Female: 35 to 44 years
+        ABK6M027:    Female: 45 to 54 years
+        ABK6M028:    Female: 55 to 64 years
+        ABK6M029:    Female: 65 to 74 years
+        ABK6M030:    Female: 75 to 84 years
+        ABK6M031:    Female: 85 years and over
+ 
+    Table 7:     Sex by Age (Two or More Races)
+    Universe:    People who are Two or More Races
+    Source code: B01001G
+    NHGIS code:  ABK7
+        ABK7M001:    Total
+        ABK7M002:    Male
+        ABK7M003:    Male: Under 5 years
+        ABK7M004:    Male: 5 to 9 years
+        ABK7M005:    Male: 10 to 14 years
+        ABK7M006:    Male: 15 to 17 years
+        ABK7M007:    Male: 18 and 19 years
+        ABK7M008:    Male: 20 to 24 years
+        ABK7M009:    Male: 25 to 29 years
+        ABK7M010:    Male: 30 to 34 years
+        ABK7M011:    Male: 35 to 44 years
+        ABK7M012:    Male: 45 to 54 years
+        ABK7M013:    Male: 55 to 64 years
+        ABK7M014:    Male: 65 to 74 years
+        ABK7M015:    Male: 75 to 84 years
+        ABK7M016:    Male: 85 years and over
+        ABK7M017:    Female
+        ABK7M018:    Female: Under 5 years
+        ABK7M019:    Female: 5 to 9 years
+        ABK7M020:    Female: 10 to 14 years
+        ABK7M021:    Female: 15 to 17 years
+        ABK7M022:    Female: 18 and 19 years
+        ABK7M023:    Female: 20 to 24 years
+        ABK7M024:    Female: 25 to 29 years
+        ABK7M025:    Female: 30 to 34 years
+        ABK7M026:    Female: 35 to 44 years
+        ABK7M027:    Female: 45 to 54 years
+        ABK7M028:    Female: 55 to 64 years
+        ABK7M029:    Female: 65 to 74 years
+        ABK7M030:    Female: 75 to 84 years
+        ABK7M031:    Female: 85 years and over
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles.
+        IPUMS National Historical Geographic Information System: Version 18.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2023.
+        http://doi.org/10.18128/D050.V18.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455

@@ -1,0 +1,5 @@
+Year,Model,Test accuracy,CV accuracy,MSE,Time taken:
+2016,Ridge linear (alpha = 0.0),0.921,0.79453,0.037,0:01:20.823184
+2016,k-Nearest Neighbors (k = 13),0.87,0.80923,0.084,0:01:45.568483
+2016,"Random forest (depth=15,max_features=0.5)",0.954,0.89326,0.025,0:14:41.213476
+2016,Averaged,0.944,N/A,0.032,N/A

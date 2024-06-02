@@ -1,0 +1,9 @@
+Year,Model,Test accuracy,CV accuracy,MSE,Time taken:
+2008,Ridge linear (alpha = 0.0),0.788,0.85718,0.125,0:01:04.131335
+2008,k-Nearest Neighbors (k = 29),0.761,0.87048,0.096,0:02:35.381680
+2008,"Random forest (depth=15,max_features=0.6)",0.807,0.9434,0.1,0:09:40.573092
+2008,Averaged,0.792,N/A,0.091,N/A
+2012,Ridge linear (alpha = 0.0),0.864,0.85718,0.058,0:01:04.131335
+2012,k-Nearest Neighbors (k = 29),0.812,0.87048,0.086,0:02:35.381680
+2012,"Random forest (depth=15,max_features=0.6)",0.88,0.9434,0.053,0:09:40.573092
+2012,Averaged,0.863,N/A,0.051,N/A
