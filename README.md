@@ -26,9 +26,11 @@ We cleaned and merged the demographic and election datasets by year, after inter
 ## Model selection and training
 
 For subsets $S \subset { 2008, 2012, 2016, 2020 }$, we trained three regression models to predict voting inclination on the data from $S$. Our models were 
+
 - Ridge Regression (baseline), 
 - K Nearest Neighbor regression, and 
-- Random Forest Regression. 
+- Random Forest Regression.
+  
 To mitigate overfit, we performed five independently shuffled 10-fold cross validation splits, resulting in fifty training, holdout splits. For each model, we carried out hyperparameter tuning in concert with cross-validation and (for Ridge and KNN) recursive feature elimination. Finally, to balance out the individual weaknesses of the models, we computed a weighted average of their predictions (in essence, a custom voting regressor in which the base models are trained on different sets of features). 
 
 ## Key Performance Indicators
