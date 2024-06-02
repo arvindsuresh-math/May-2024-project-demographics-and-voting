@@ -40,7 +40,7 @@ The spreadsheets "fimp_ridge_{n}$ and "fimp_rfr_{n}" in the results folder conta
 
 ## Interpretation of performance
 
-In the lens of our problem formulation, we view a model that achieves a performance rating close to its original mean-CV rating as evidence for our thesis (i.e., demographic data is a strong predictor of voting inclination across large timescales.) 
+In the lens of our problem formulation, we view a model that achieves a performance rating close to its original mean-CV rating as evidence for our thesis (i.e., demographic data is a strong predictor of voting inclination across large timescales.) For example, if we have a machine-learning model trained on data from 2008 that is able to predict, with comparable accuracy and mean-squared-error, the voting inclination in a different election year, say, 2020, then we infer that the particular manner in which demographic features combine to predict voting inclination is similar in the years 2008 and 2020, and we interpret such a model as evidence in favor of our thesis. 
 
 ## Results
 
