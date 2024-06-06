@@ -1,5 +1,5 @@
 
-# May-2024-project-education-and-politics
+# May-2024-project-demographics-and-voting
 
 Authors: Arvind Suresh, Fernando Liu Lopez
 
